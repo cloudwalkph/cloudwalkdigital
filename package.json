@@ -1,0 +1,17 @@
+{
+  "name": "cloudwalkdigital",
+  "version": "1.0.0",
+  "description": "website for cloudwalk digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cwd",
+    "cloudwalk",
+    "digital",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC"
+}
