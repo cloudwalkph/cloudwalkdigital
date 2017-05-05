@@ -22,3 +22,175 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.header{
+  color: #ffffff;
+}
+.page-content{
+  background: url('/img/bg/Cwd-Web11.jpg');
+}
+
+.mdl-layout__header{
+  box-shadow:none;
+  background: #ffffff;
+  color: #c2c2c2;
+}
+
+.submenu{
+  color: #c2c2c2 !important;
+}
+
+.newweb{
+  color: #f5822c;
+  font-size: 43px;
+  text-align: center;
+  margin-top: -17px;
+  margin-right: 27px;
+}
+
+.shape6{
+  width: 89px;
+  height: 3px;
+  margin-left: 95px;
+}
+
+.shape5{
+  height: 131px;
+  margin-top: 336px;
+  margin-left: -60px;
+}
+
+.nxtpro{
+  font-size: 14px;
+  color: #363636;
+  text-align: center;
+  margin-right: 321px;
+}
+
+.newwebcaption{
+  margin-left: 94px;
+  margin-top: 38px;
+}
+
+.getsbutton{
+  margin-left: 95px;
+  margin-top: 13px;
+}
+
+.laptop{
+  margin-top: 116px;
+  height: 378px;
+}
+
+.web{
+  margin-top: 116px;
+}
+
+.caption{
+  margin-top: -109px;
+  margin-left: 191px;
+}
+
+.logo{
+  height: 201px;
+  margin-top: 228px;
+  margin-left: 130px;
+}
+
+.caption1{
+  margin-left: 52px;
+  margin-top: 35px;
+}
+
+/* Start Features Design */
+.features1{
+  height: 188px;
+  margin-top: 244px;
+  margin-left: 100px;
+  margin-bottom: 58px;
+}
+
+.features2{
+  height: 188px;
+  margin-top: 244px;
+  margin-left: 130px;
+  margin-bottom: 58px;
+}
+
+.features3{
+  height: 188px;
+  margin-top: 244px;
+  margin-left: 130px;
+  margin-bottom: 58px;
+}
+
+.oms{
+  color: #f5822c;
+  margin-left: 132px;
+}
+
+.omsfeatures1{
+  margin-top: 20px;
+  margin-left: 100px;
+ }
+
+.wd{
+  color: #f5822c;
+  margin-left: 185px;
+}
+
+.wdfeatures2{
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.dg{
+  color: #f5822c;
+  margin-left: 189px;
+}
+.dgfeatures3{
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+/*END FEATURES DESIGN*/
+
+/*Start Products Design*/
+.photolivelogo{
+  height: 209px;
+  margin-left: 189px;
+}
+
+.photoliveinfo{
+  margin-top: 57px;
+  margin-left: 23px;
+}
+
+.products{
+  padding-top: 91px;
+}
+
+.products1{
+  font-size: 22px;
+  padding-left: 22px;
+  color: #f5822c;
+}
+
+.productbtn{
+  margin-left: 20px;
+}
+
+/*end Products*/
+
+/*Start Feedback*/
+
+.cfeedback{
+  font-size: 20px;
+  margin-right: 168px;
+}
+
+.shape6{
+  width: 89px;
+  height: 3px;
+  margin-left: 95px;
+}
