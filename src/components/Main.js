@@ -10,7 +10,8 @@ class Main extends Component {
                         <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
                         <img className="shape6" src="./img/Shapes/Rectangle 6.png"/>
                         <p className="newwebcaption" style={{fontFamily: 'Lato-Regular'}}>Let's create something  that will convert  visitors to instant customers.<br/>With clean and clear UI/UX and branded aesthestics, create valuable<br/> qualified leads.</p>
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent primary getsbutton">
+
+                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton">
                             GET ESTIMATE
                         </button>
                         <img className="shape5" src="./img/Shapes/Rectangle 5.png"/>
@@ -50,18 +51,164 @@ class Main extends Component {
 
                 <div className="mdl-cell mdl-cell--6-col products">
                     <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
+                    <img className="shape666" src="./img/Shapes/Rectangle 6.png"/>
                     <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br/> booth in the country that allow's brands to gain valuable<br/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
 
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
+                    <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
                         VISIT SITE
                     </button>
 
-            </div>
-            </div>
-
         </div>
+            </div>
+
+            <div className="mdl-grid ">
+                <div className="mdl-cell mdl-cell--6-col feedback">
+                    <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
+                    <img className="shape6"  src="./img/Shapes/Rectangle 6.png"/>
+                    <p className="comments">We’ve worked with some of the world’s best customers.<br/>
+                    Helping these guys succeed with a little help from us was<br/>
+                    a pretty fulfilling experience for us. We hope to add you here!
+                    </p>
+                </div>
+
+                <div className="mdl-cell mdl-cell--6-col feedback1">
+                    <label className="qoute" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>“</label>
+                    <label className="titleqoute" style={{fontFamily: 'Lato-Bold'}}>The best Digital Agency since sliced bread!</label>
+                    <p className="clientqoute" style={{fontFamily: 'Lato-Regular'}}>How’s business? Boomin. I’m giving you cloth talk, cloth. Special cloth alert,<br/>
+                    cut from a special cloth. Surround yourself with angels. </p>
+                    <div  className="mdl-grid" >
+                        <div  className="mdl-cell mdl-cell--6-col photo" >
+                            <img className="jonathan"  src="./img/Features/Photo.png"/>
+                        </div>
+                        <div className="mdl-cell mdl-cell--6-col name">
+                            <label style={{fontFamily: 'Lato-Regular'}}>Jonathan L. Simmons<br/></label>
+                            <label className="company" style={{fontFamily: 'MerriweatherSans-Bold'}}>Blade and Babe Inc.</label>
+                         </div>
+                     </div>
+                </div>
+            </div>
+
+                        <div className="mdl-grid ">
+                            <div className="mdl-cell mdl-cell--6-col consultation">
+                                <label className="constitle" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Get a Free Consultation</label>
+                                <img className="shape6666"  src="./img/Shapes/Rectangle 6.png"/>
+                                <p className="conscomments">Get in touch with us today! Fill out this form and<br/>
+                                    let’s get things done.</p>
+                             </div>
+
+                            <div className="mdl-cell mdl-cell--6-col mdl-data-table--selectable mdl-shadow--2dp consultation1">
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--6-col" >
+                                            <form action="#">
+                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div className="mdl-cell mdl-cell--6-col">
+                                            <form action="#">
+                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--6-col" >
+                                            <label style={{fontFamily: 'Lato-Regular'}}>First Name</label>
+                                        </div>
+                                        <div className="mdl-cell mdl-cell--6-col">
+                                            <label style={{fontFamily: 'Lato-Regular'}}>Last Name</label>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--6-col" >
+                                            <form action="#">
+                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div className="mdl-cell mdl-cell--6-col">
+                                            <form action="#">
+                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--6-col" >
+                                        <label style={{fontFamily: 'Lato-Regular'}}>Email Address</label>
+                                         </div>
+                                        <div className="mdl-cell mdl-cell--6-col">
+                                            <label style={{fontFamily: 'Lato-Regular'}}>Phone</label>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--12-col" >
+                                            <form action="#">
+                                                <div className="mdl-textfield mdl-js-textfield ">
+                                                    <textarea className="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+                                                    <label className="mdl-textfield__label" for="sample5"></label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--12-col" >
+                                            <label style={{fontFamily: 'Lato-Regular'}}>Message</label>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--12-col" >
+                                            <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1" style={{fontFamily: 'Lato-Regular'}}>
+                                                <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input"></input>
+                                                    <span className="mdl-checkbox__label">Im Not a robot</span>
+                                                </label>
+
+                                         </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--12-col" >
+                                            <button style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                                Submit
+                                            </button>
+                                        </div>
+
+            </div>
+
+                            </div>
+                        </div>
 
 
+
+                <div className="mdl-grid ">
+                    <div className="mdl-cell mdl-cell--12-col">
+                        <img className="bluebg"  src="./img/Shapes/Accent 2.png"/>
+                    </div>
+                </div>
+
+                <div className="mdl-grid ">
+                    <div className="mdl-cell mdl-cell--12-col">
+                        <img className="map" src="./img/Map/map.jpg"/>
+                    </div>
+                </div>
+
+                <div className="mdl-grid ">
+                    <div className="mdl-cell mdl-cell--12-col footer">
+                       <img className="footer1" src="./img/Shapes/Footer.png"/>
+                    </div>
+                </div>
+        </div>
         );
     }
 }
