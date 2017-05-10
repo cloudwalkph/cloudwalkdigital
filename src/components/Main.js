@@ -14,7 +14,7 @@ class Main extends Component {
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton">
                             GET ESTIMATE
                         </button>
-                        <img className="shape5" src="./img/Shapes/Rectangle 5.png"/>
+                        <img className="shape5" src="./img/Shapes/RectangleWhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
                     </div>
 
@@ -57,8 +57,7 @@ class Main extends Component {
                     <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
                         VISIT SITE
                     </button>
-
-        </div>
+                </div>
             </div>
 
             <div className="mdl-grid ">
@@ -88,7 +87,7 @@ class Main extends Component {
                 </div>
             </div>
 
-                        <div className="mdl-grid ">
+                        <div className="mdl-grid consult ">
                             <div className="mdl-cell mdl-cell--6-col consultation">
                                 <label className="constitle" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Get a Free Consultation</label>
                                 <img className="shape6666"  src="./img/Shapes/Rectangle 6.png"/>
@@ -99,71 +98,61 @@ class Main extends Component {
                             <div className="mdl-cell mdl-cell--6-col mdl-data-table--selectable mdl-shadow--2dp consultation1">
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--6-col" >
-                                            <form action="#">
                                                 <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                                     <input className="mdl-textfield__input input" type="text" id="sample3"></input>
                                                 </div>
-                                            </form>
                                         </div>
 
                                         <div className="mdl-cell mdl-cell--6-col">
-                                            <form action="#">
                                                 <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                                     <input className="mdl-textfield__input input" type="text" id="sample3"></input>
                                                 </div>
-                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div  className="mdl-grid" >
+                                        <div  className="mdl-cell mdl-cell--6-col fname" >
+                                            <label style={{fontFamily: 'Lato-Regular'}}>FIRST NAME</label>
+                                        </div>
+                                        <div className="mdl-cell mdl-cell--6-col lname">
+                                            <label style={{fontFamily: 'Lato-Regular'}}>LAST NAME</label>
                                         </div>
                                     </div>
 
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--6-col" >
-                                            <label style={{fontFamily: 'Lato-Regular'}}>First Name</label>
-                                        </div>
-                                        <div className="mdl-cell mdl-cell--6-col">
-                                            <label style={{fontFamily: 'Lato-Regular'}}>Last Name</label>
-                                        </div>
-                                    </div>
-
-                                    <div  className="mdl-grid" >
-                                        <div  className="mdl-cell mdl-cell--6-col" >
-                                            <form action="#">
                                                 <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                                     <input className="mdl-textfield__input input" type="text" id="sample3"></input>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div className="mdl-cell mdl-cell--6-col">
-                                            <form action="#">
                                                 <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                                     <input className="mdl-textfield__input input" type="text" id="sample3"></input>
                                                 </div>
-                                            </form>
                                         </div>
                                         </div>
 
                                     <div  className="mdl-grid" >
-                                        <div  className="mdl-cell mdl-cell--6-col" >
-                                        <label style={{fontFamily: 'Lato-Regular'}}>Email Address</label>
+                                        <div  className="mdl-cell mdl-cell--6-col emailadd" >
+                                        <label style={{fontFamily: 'Lato-Regular'}}>EMAIL ADDRESS</label>
                                          </div>
-                                        <div className="mdl-cell mdl-cell--6-col">
-                                            <label style={{fontFamily: 'Lato-Regular'}}>Phone</label>
+                                        <div className="mdl-cell mdl-cell--6-col phone">
+                                            <label style={{fontFamily: 'Lato-Regular'}}>PHONE</label>
                                         </div>
                                     </div>
 
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--12-col" >
-                                            <form action="#">
-                                                <div className="mdl-textfield mdl-js-textfield ">
+                                                <div className="mdl-textfield mdl-js-textfield message">
                                                     <textarea className="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
                                                     <label className="mdl-textfield__label" for="sample5"></label>
                                                 </div>
-                                            </form>
                                         </div>
                                     </div>
 
                                     <div  className="mdl-grid" >
-                                        <div  className="mdl-cell mdl-cell--12-col" >
-                                            <label style={{fontFamily: 'Lato-Regular'}}>Message</label>
+                                        <div  className="mdl-cell mdl-cell--12-col message1" >
+                                            <label style={{fontFamily: 'Lato-Regular'}}>MAESSAGE</label>
                                         </div>
                                     </div>
 
@@ -180,13 +169,11 @@ class Main extends Component {
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--12-col" >
                                             <button style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                                                Submit
+                                                SUBMIT
                                             </button>
                                         </div>
-
-            </div>
-
-                            </div>
+                                     </div>
+                             </div>
                         </div>
 
 
@@ -197,16 +184,34 @@ class Main extends Component {
                     </div>
                 </div>
 
-                <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--12-col">
-                        <img className="map" src="./img/Map/map.jpg"/>
-                    </div>
+                <div className="mdl-grid">
+                    <img className="map" src="./img/Map/map.jpg"/>
+                        <div className="mdl-cell mdl-cell--12-col cwdmap">
+                            <label className="" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
+                            <img className="mapshape"  src="./img/Shapes/Rectangle 6.png"/>
+                            <p className="cwdadd"> #79 3BB Building Kamuning Street Corner,<br/>
+                            11th Jamboree, Quezon City, 1100 Metro Manila</p>
+                        </div>
                 </div>
 
-                <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--12-col footer">
-                       <img className="footer1" src="./img/Shapes/Footer.png"/>
-                    </div>
+                <div className="mdl-grid footer">
+                    <img className="footer1" src="./img/Shapes/Footer.png"/>
+                        <div className="mdl-cell mdl-cell--6-col footerlabel">
+                            <label className="" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
+                            <p className=""> whatsup@cloudwalkdigital.com</p>
+                            <p className="">(02) 414 4014</p>
+                            <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                START YOUR PROJECT
+                            </button>
+                            <p> COPYRIGHT © 2017 CLOUDWALK DIGITAL ALL RIGHTS RESERVED</p>
+                        </div>
+
+                        <div className="mdl-cell mdl-cell--6-col footerlabel1">
+                            <img className=""  src="./img/Shapes/.png"/>
+                            <p className="">TERMS AND CONDITIONS</p>
+                            <p className="">BLOG</p>
+                            <p>CONTACT</p>
+                        </div>
                 </div>
         </div>
         );

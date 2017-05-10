@@ -249,11 +249,15 @@
 /*end feedback*/
 
 /* start free consultation*/
+.consult{
+  padding-top: 100px;
+}
 .consultation{
   /*margin-top: 298px;*/
 }
 .consultation1{
-  /*padding-top: 285px;*/
+  width: 450px;
+  margin-left: 116px;
 }
 
 .constitle{
@@ -282,6 +286,34 @@
 .input{
   background-color: #f8f8f8;
 }
+
+#sample5{
+  background-color: #f8f8f8;
+}
+
+.message{
+  width: 100%;
+}
+
+.fname{
+  margin-top: -38px;
+}
+
+.lname{
+  margin-top: -38px;
+}
+
+.emailadd{
+  margin-top: -38px;
+}
+
+.phone{
+  margin-top: -38px;
+}
+
+.message1{
+  margin-top: -38px;
+}
 /* end free consultation*/
 
 /*blue background*/
@@ -292,8 +324,34 @@
 
 /*start Map*/
 .map{
-  margin-left: -24px;
-  margin-top: -32px;
+  height: 286px;
+  width: 1358px;
+  margin-top: -24px;
+  margin-left: -15px;
+}
+
+.tmap{
+  color: #f5822c;
+}
+
+.cwdmap{
+  margin-left: -15px;
+  margin-top: -235px;
+  background-color: #fff;
+  width: 30%;
+  margin-bottom: 53px;
+}
+
+.cwdadd{
+  /*margin-left: -301px;*/
+  margin-top: 22px;
+}
+
+.mapshape{
+  margin-top: 30px;
+  margin-left: -159px;
+  width: 89px;
+  height: 3px;
 }
 
 /*end Map*/
@@ -307,5 +365,14 @@
 .footer1{
   height: 286px;
   width: 1358px;
+
+}
+
+.footerlabel{
+  margin-top: -219px;
+}
+
+.footerlabel1{
+  margin-top: -219px;
 }
 /**end Footer*!*/
