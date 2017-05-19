@@ -100,21 +100,21 @@
   position: absolute;
   z-index: 0;
   margin-left: 94%;
-  margin-top: 41%;
-  height: 86%;
+  margin-top: 38%;
+  height: 54%;
 }
 
 .Rectangle4{
   position: absolute;
   z-index: 0;
-  margin-top: 1039px;
+  margin-top: 972px;
   margin-left: 400px;
 }
 
 .Rectangle6{
   position: absolute;
   z-index: 0;
-  margin-top: 994px;
+  margin-top: 905px;
   width: 485px;
   margin-left: 194px;
 }
@@ -123,8 +123,8 @@
   position: absolute;
   z-index: 0;
   margin-left: 46%;
-  margin-top: 879px;
-  height: 60px;
+  margin-top: 797px;
+  height: 55px;
 }
 
 .Polygon22{
@@ -410,6 +410,8 @@
 .consultation1{
   width: 450px;
   margin-left: 116px;
+  z-index: 1;
+  background: white;
 }
 
 .constitle{
@@ -480,6 +482,7 @@
 /*blue background*/
 .bluebg{
   margin-left: -24px;
+  margin-top: -126px;
 }
 /*blue background*/
 
