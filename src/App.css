@@ -36,16 +36,150 @@
   color: #c2c2c2;
 }
 
+.webcover{
+  z-index: 1;
+}
+
 .submenu{
   color: #c2c2c2 !important;
 }
 
+/* Start Shapes*/
+.Ellipse{
+  position: absolute;
+  z-index: 0;
+  margin-left: -41px;
+  margin-top: 270px;
+}
+
+.polygon1{
+  /*margin-left: 268px;*/
+  position: absolute;
+  z-index: 0;
+  margin-left: 300px;
+  margin-top: 95px;
+}
+
+.shapepolygon{
+  /*margin-left: 20%;*/
+  /*margin-top: 19px;*/
+  /*height: 84px;*/
+  position: absolute;
+  z-index: 0;
+}
+
+.Rectangle{
+  position: absolute;
+  z-index: 0;
+  margin-left: 50%;
+}
+
+.Rectangle3{
+  position: absolute;
+  z-index: 0;
+  margin-left: 87%;
+  margin-top: 5%;
+}
+
+.ellipse2{
+  position: absolute;
+  z-index: 0;
+  margin-left: 75%;
+  margin-top: 43%;
+}
+
+.polygon3{
+  position: absolute;
+  z-index: 0;
+  margin-top: 52%;
+  margin-left: 85%;
+
+}
+
+.rectangle05{
+  position: absolute;
+  z-index: 0;
+  margin-left: 94%;
+  margin-top: 41%;
+  height: 86%;
+}
+
+.Rectangle4{
+  position: absolute;
+  z-index: 0;
+  margin-top: 1039px;
+  margin-left: 400px;
+}
+
+.Rectangle6{
+  position: absolute;
+  z-index: 0;
+  margin-top: 994px;
+  width: 485px;
+  margin-left: 194px;
+}
+
+.Polygon2{
+  position: absolute;
+  z-index: 0;
+  margin-left: 46%;
+  margin-top: 879px;
+  height: 60px;
+}
+
+.Polygon22{
+  position: absolute;
+  z-index: 0;
+  margin-left: 56%;
+  margin-top: 2644px;
+  height: 60px;
+}
+
+.Polygon33{
+  position: absolute;
+  z-index: 0;
+  margin-left: 93%;
+  margin-top: 2710px;
+  height: 45px;
+}
+
+.Ellipse22{
+  position: absolute;
+  z-index: 0;
+  margin-top: 2593px;
+  margin-left: 287px;
+}
+
+.Polygon44{
+  position: absolute;
+  z-index: 0;
+  margin-top: 2912px;
+  margin-left: 287px;
+  height: 120px;
+}
+
+.Rectangle1{
+  position: absolute;
+  z-index: 0;
+  margin-top: 2821px;
+  margin-left: 10px;
+  height: 60px;
+}
+
+.Rectangle2{
+  position: absolute;
+  z-index: 0;
+  margin-top: 2923px;
+  margin-left: 1171px;
+  height: 100px;
+}
+/* End Shapes*/
+
 .newweb{
+  margin-top: 10px;
   color: #f5822c;
   font-size: 43px;
   text-align: center;
-  margin-top: -17px;
-  margin-right: 27px;
 }
 
 .shape6{
@@ -56,8 +190,8 @@
 
 .shape5{
   height: 131px;
-  margin-top: 336px;
-  margin-left: -60px;
+  margin-top: 180px;
+  margin-left: 180px;
 }
 
 .nxtpro{
@@ -74,7 +208,7 @@
 
 .getsbutton{
   margin-left: 95px;
-  margin-top: -415px;
+  margin-top: 10px;
 }
 
 .laptop{
@@ -84,17 +218,22 @@
 
 .web{
   margin-top: 116px;
+  /*margin-left: -358px;*/
+}
+
+.aboutpage{
+  width: 100%;
 }
 
 .caption{
   margin-top: -109px;
-  margin-left: 191px;
+  margin-left: 229px;
   color: #fff;
 }
 
 .logo{
-  height: 201px;
-  margin-top: 228px;
+  height: 165px;
+  margin-top: 121px;
   margin-left: 130px;
 }
 
@@ -102,6 +241,12 @@
   margin-left: 52px;
   margin-top: 35px;
 }
+
+/*.polygon3{*/
+  /*height: 60px;*/
+  /*margin-top: -854px;*/
+  /*margin-left: 405px;*/
+/*}*/
 
 /* Start Features Design */
 .features1{
@@ -191,8 +336,15 @@
 /*end Products*/
 
 /*Start Feedback*/
+.feedbackgrid{
+  background-color: #f8f8f8;
+  height: 456px;
+  margin-left: -5px;
+  width: 1323px;
+  margin-top: 105px;
+}
 .feedback{
-  margin-top: 298px;
+  margin-top: 131px;
 }
 
 .titleqoute{
@@ -200,7 +352,7 @@
 }
 
 .feedback1{
-  padding-top: 285px;
+  padding-top: 123px;
 }
 
 .cfeedback{
@@ -314,6 +466,15 @@
 .message1{
   margin-top: -38px;
 }
+
+.checkbtn{
+  width: 50%;
+  margin-left: 10px;
+}
+
+.submitbtn{
+  width: 100%;
+}
 /* end free consultation*/
 
 /*blue background*/
@@ -335,11 +496,16 @@
 }
 
 .cwdmap{
-  margin-left: -15px;
-  margin-top: -235px;
   background-color: #fff;
   width: 30%;
-  margin-bottom: 53px;
+  z-index: 1;
+  position: absolute;
+  padding: 30px;
+  margin-left: -16px;
+}
+
+.drop{
+  color: #f5822c;
 }
 
 .cwdadd{
@@ -365,14 +531,69 @@
 .footer1{
   height: 286px;
   width: 1358px;
-
 }
 
 .footerlabel{
   margin-top: -219px;
+  color: #fff;
+  padding-left: 179px;
 }
 
 .footerlabel1{
   margin-top: -219px;
+
+}
+
+.fbicon{
+  height: 38px;
+  margin-left: 80%;
+}
+
+.twittericon{
+  height: 38px;
+  margin-left: 80%;
+}
+
+.twitter{
+  margin-top: -14px;
+}
+
+.youtubeicon{
+  height: 38px;
+  margin-left: 80%;
+}
+
+.youtube{
+  margin-top: -14px;
+}
+
+.socialmedia{
+  margin-top: -243px;
+}
+
+.tandc{
+  margin-top: 19px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.blog{
+  margin-top: 19px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footercontact{
+  margin-top: 19px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.worklabel{
+  font-size: 25px;
+}
+
+.footercopyright{
+  margin-top: 40px;
 }
 /**end Footer*!*/

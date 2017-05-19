@@ -4,45 +4,72 @@ class Main extends Component {
     render() {
         return (
             <div className="mdl-grid ">
-                <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--6-col web">
-                        <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
-                        <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
-                        <img className="shape6" src="./img/Shapes/Rectangle 6.png"/>
-                        <p className="newwebcaption" style={{fontFamily: 'Lato-Regular'}}>Let's create something  that will convert  visitors to instant customers.<br/>With clean and clear UI/UX and branded aesthestics, create valuable<br/> qualified leads.</p>
+            <img className="Ellipse" src="./img/Shapes/Ellipse.png"/>
+            <img className="polygon1" src="./img/Shapes/Polygon 1.png"/>
+            <img className="Rectangle" src="./img/Shapes/Rectangle.png"/>
+            <img className="Rectangle3" src="./img/Shapes/Rectangle 3.png"/>
+            <img className="ellipse2" src="./img/Shapes/Ellipse 2.png"/>
+            <img className="polygon3" src="./img/Shapes/Polygon 3.png"/>
+            <img className="rectangle05" src="./img/Shapes/Rectangle 5.png"/>
 
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton">
-                            GET ESTIMATE
-                        </button>
+            <img className="Polygon2" src="./img/Shapes/Polygon 2.png"/>
+            <img className="Rectangle6" src="./img/Shapes/Rectangle 6.png"/>
+            <img className="Rectangle4" src="./img/Shapes/Rectangle 4.png"/>
+            <img className="Polygon22" src="./img/Shapes/Polygon 2.png"/>
+            <img className="Polygon33" src="./img/Shapes/Polygon 3.png"/>
+            <img className="Ellipse22" src="./img/Shapes/Ellipse 2.png"/>
+            <img className="Polygon44" src="./img/Shapes/Polygon 4.png"/>
+            <img className="Rectangle1" src="./img/Shapes/Rectangle.png"/>
+            <img className="Rectangle2" src="./img/Shapes/Rectangle 2.png"/>
+
+
+            <div className="mdl-grid webcover">
+                        <div className="mdl-cell mdl-cell--6-col web">
+                            <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
+                            <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
+                            <img className="shape6" src="./img/Shapes/Rectangle 6.png"/>
+                            <p className="newwebcaption" style={{fontFamily: 'Lato-Regular'}}>Let's create something  that will convert  visitors to instant customers.<br/>With clean and clear UI/UX and branded aesthestics, create valuable<br/> qualified leads.</p>
+                            <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton">
+                                GET ESTIMATE
+                            </button>
+                         </div>
+
+                        <div className="mdl-cell mdl-cell--6-col ">
+                            <img className="laptop" src="./img/laptop/Laptop.png"/>
+                       </div>
+                </div>
+
+                <div className="mdl-grid aboutpage">
+                    <div className="mdl-cell mdl-cell--6-col">
                         <img className="shape5" src="./img/Shapes/RectangleWhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col ">
-                        <img className="laptop" src="./img/laptop/Laptop.png"/>
                         <img className="logo" src="./img/Logo/Cloudwalk Logo.png"/>
                         <p className="caption1"> We are a digital (obviously) solutions company that create products to<br/> improve and innovata companies across the globe. We create unparalleled <br/> systematic business solutions to make operations more officients.</p>
+                        
                     </div>
                 </div>
 
-                <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--4-col">
-                        <img className="features1" src="./img/Features/Feature 1.png"/>
-                        <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
-                        <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, yuo've gotta flow. celebrate<br/> success right, The only way, apple.</p>
-                    </div>
-                    <div className="mdl-cell mdl-cell--4-col ">
-                        <img className="features2" src="./img/Features/Feature 2.png"/>
-                        <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Deveopment</label>
-                        <p className="wdfeatures2">I'm up to something. The first of the month is<br/> comming, we have to get money, we have no<br/> choice. It cost money to eat and they don't<br/> want you to eat. You smart, you loyal.</p>
+                    <div className="mdl-grid ">
+                        <div className="mdl-cell mdl-cell--4-col">
+                            <img className="features1" src="./img/Features/Feature 1.png"/>
+                            <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
+                            <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, yuo've gotta flow. celebrate<br/> success right, The only way, apple.</p>
+                        </div>
+                        <div className="mdl-cell mdl-cell--4-col ">
+                            <img className="features2" src="./img/Features/Feature 2.png"/>
+                            <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Deveopment</label>
+                            <p className="wdfeatures2">I'm up to something. The first of the month is<br/> comming, we have to get money, we have no<br/> choice. It cost money to eat and they don't<br/> want you to eat. You smart, you loyal.</p>
 
-                    </div>
-                    <div className="mdl-cell mdl-cell--4-col">
-                        <img className="features3" src="./img/Features/Feature 3.png"/>
-                        <label className="dg" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Digital Marketing</label>
-                        <p className="dgfeatures3">It's Important to use cocoa butter. It's the key<br/> to more success, why not live smooth? Why<br/> live rough? The other day the grass was brown.<br/> now it's green because I ain't give up.</p>
-                    </div>
-            </div>
+                        </div>
+                        <div className="mdl-cell mdl-cell--4-col">
+                            <img className="features3" src="./img/Features/Feature 3.png"/>
+                            <label className="dg" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Digital Marketing</label>
+                            <p className="dgfeatures3">It's Important to use cocoa butter. It's the key<br/> to more success, why not live smooth? Why<br/> live rough? The other day the grass was brown.<br/> now it's green because I ain't give up.</p>
+                        </div>
+                </div>
 
             <div className="mdl-grid ">
                 <div className="mdl-cell mdl-cell--6-col web">
@@ -60,7 +87,7 @@ class Main extends Component {
                 </div>
             </div>
 
-            <div className="mdl-grid ">
+            <div className="mdl-grid feedbackgrid">
                 <div className="mdl-cell mdl-cell--6-col feedback">
                     <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
                     <img className="shape6"  src="./img/Shapes/Rectangle 6.png"/>
@@ -121,16 +148,16 @@ class Main extends Component {
 
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--6-col" >
-                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
-                                                </div>
+                                            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                            </div>
                                         </div>
                                         <div className="mdl-cell mdl-cell--6-col">
-                                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                                    <input className="mdl-textfield__input input" type="text" id="sample3"></input>
-                                                </div>
+                                            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                            </div>
                                         </div>
-                                        </div>
+                                    </div>
 
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--6-col emailadd" >
@@ -156,7 +183,7 @@ class Main extends Component {
                                         </div>
                                     </div>
 
-                                    <div  className="mdl-grid" >
+                                    <div  className="mdl-grid checkbtn" >
                                         <div  className="mdl-cell mdl-cell--12-col" >
                                             <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1" style={{fontFamily: 'Lato-Regular'}}>
                                                 <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input"></input>
@@ -168,7 +195,7 @@ class Main extends Component {
 
                                     <div  className="mdl-grid" >
                                         <div  className="mdl-cell mdl-cell--12-col" >
-                                            <button style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                            <button style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored submitbtn">
                                                 SUBMIT
                                             </button>
                                         </div>
@@ -176,43 +203,64 @@ class Main extends Component {
                              </div>
                         </div>
 
-
-
-                <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--12-col">
-                        <img className="bluebg"  src="./img/Shapes/Accent 2.png"/>
+                    <div className="mdl-grid ">
+                        <div className="mdl-cell mdl-cell--12-col">
+                            <img className="bluebg"  src="./img/Shapes/Accent 2.png"/>
+                        </div>
                     </div>
-                </div>
 
-                <div className="mdl-grid">
-                    <img className="map" src="./img/Map/map.jpg"/>
-                        <div className="mdl-cell mdl-cell--12-col cwdmap">
-                            <label className="" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
-                            <img className="mapshape"  src="./img/Shapes/Rectangle 6.png"/>
-                            <p className="cwdadd"> #79 3BB Building Kamuning Street Corner,<br/>
-                            11th Jamboree, Quezon City, 1100 Metro Manila</p>
-                        </div>
-                </div>
+                    <div className="mdl-grid">
+                        <img className="map" src="./img/Map/map.jpg"/>
+                            <div className="mdl-cell mdl-cell--12-col cwdmap">
+                                <label className="drop" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
+                                <img className="mapshape"  src="./img/Shapes/Rectangle 6.png"/>
+                                <p className="cwdadd"> #79 3BB Building Kamuning Street Corner,<br/>
+                                11th Jamboree, Quezon City, 1100 Metro Manila</p>
+                            </div>
+                    </div>
 
-                <div className="mdl-grid footer">
-                    <img className="footer1" src="./img/Shapes/Footer.png"/>
-                        <div className="mdl-cell mdl-cell--6-col footerlabel">
-                            <label className="" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
-                            <p className=""> whatsup@cloudwalkdigital.com</p>
-                            <p className="">(02) 414 4014</p>
-                            <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                                START YOUR PROJECT
-                            </button>
-                            <p> COPYRIGHT © 2017 CLOUDWALK DIGITAL ALL RIGHTS RESERVED</p>
-                        </div>
+                    <div className="mdl-grid footer">
+                        <img className="footer1" src="./img/Shapes/Footer.png"/>
+                            <div className="mdl-cell mdl-cell--6-col footerlabel">
+                                <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
+                                <p className=""> whatsup@cloudwalkdigital.com</p>
+                                <p className="">(02) 414 4014</p>
+                                <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                    START YOUR PROJECT
+                                </button>
+                                <p className="footercopyright"> COPYRIGHT © 2017 CLOUDWALK DIGITAL ALL RIGHTS RESERVED</p>
+                            </div>
 
-                        <div className="mdl-cell mdl-cell--6-col footerlabel1">
-                            <img className=""  src="./img/Shapes/.png"/>
-                            <p className="">TERMS AND CONDITIONS</p>
-                            <p className="">BLOG</p>
-                            <p>CONTACT</p>
-                        </div>
-                </div>
+                             <div  className="mdl-cell mdl-cell--6-col socialmedia" >
+                                <div  className="mdl-grid" >
+                                    <div  className="mdl-cell mdl-cell--6-col" >
+                                    <img className="fbicon"  src="./img/SM/FB.png"/>
+                                    </div>
+                                    <div className="mdl-cell mdl-cell--6-col tandc">
+                                        <label style={{fontFamily: 'Lato-Regular'}}>TERMS AND CONDITIONS</label>
+                                    </div>
+                                </div>
+
+                                <div  className="mdl-grid twitter" >
+                                    <div  className="mdl-cell mdl-cell--6-col" >
+                                        <img className="twittericon"  src="./img/SM/Twitter.png"/>
+                                    </div>
+                                    <div className="mdl-cell mdl-cell--6-col blog" >
+                                        <label style={{fontFamily: 'Lato-Regular'}}>BLOG</label>
+                                    </div>
+                                </div>
+
+                                <div  className="mdl-grid youtube" >
+                                    <div  className="mdl-cell mdl-cell--6-col" >
+                                        <img className="youtubeicon"  src="./img/SM/Youtube.png"/>
+                                    </div>
+                                    <div className="mdl-cell mdl-cell--6-col footercontact">
+                                        <label style={{fontFamily: 'Lato-Regular'}}>CONTACT</label>
+                                     </div>
+                                </div>
+                            </div>
+
+                    </div>
         </div>
         );
     }

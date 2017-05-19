@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Main from './Main';
+import Shapes from './Shapes';
 
 class TopMenu extends Component {
     render() {
