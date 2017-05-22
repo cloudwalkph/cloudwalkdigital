@@ -43,6 +43,7 @@
       }
     </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
   </head>
   <body>
     <div id="root"></div>
@@ -57,4 +58,29 @@
       To create a production bundle, use `npm run build`.
     -->
   </body>
+  <script>
+    function initMap() {
+      var uluru = {lat: 14.629329, lng: 121.040657};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 20,
+        center: uluru
+      });
+//      var bounds = map.getBounds();
+//      var ne = bounds.getNorthEast(); // LatLng of the north-east corner
+//      var sw = bounds.getSouthWest(); // LatLng of the south-west corder
+//
+//      var nw = new google.maps.LatLng(ne.lat(), sw.lng());
+//      var se = new google.maps.LatLng(sw.lat(), ne.lng());
+
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+
+  <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnWvdkcf17U0Mv5U7bT5pupIUlRK42A5E&callback=initMap">
+  </script>
 </html>
+

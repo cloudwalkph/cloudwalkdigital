@@ -218,13 +218,14 @@ class Main extends Component {
                     </div>
 
                     <div className="mdl-grid">
-                        <img className="map" src="./img/Map/map.jpg"/>
+                        <div className="map" id="map">
                             <div className="mdl-cell mdl-cell--12-col cwdmap">
                                 <label className="drop" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
                                 <img className="mapshape"  src="./img/Shapes/Rectangle 6.png"/>
                                 <p className="cwdadd"> #79 3BB Building Kamuning Street Corner,<br/>
                                 11th Jamboree, Quezon City, 1100 Metro Manila</p>
                             </div>
+                        </div>
                     </div>
 
                     <div className="mdl-grid footer" id="contact">
