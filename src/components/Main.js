@@ -23,7 +23,7 @@ class Main extends Component {
             <img className="Rectangle2" src="./img/Shapes/Rectangle 2.png"/>
 
 
-            <div className="mdl-grid webcover">
+            <div className="mdl-grid webcover" id="home">
                         <div className="mdl-cell mdl-cell--6-col web">
                             <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
                             <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
@@ -39,7 +39,7 @@ class Main extends Component {
                        </div>
                 </div>
 
-                <div className="mdl-grid aboutpage">
+                <div className="mdl-grid aboutpage" id="about">
                     <div className="mdl-cell mdl-cell--6-col">
                         <img className="shape5" src="./img/Shapes/RectangleWhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
@@ -52,7 +52,7 @@ class Main extends Component {
                     </div>
                 </div>
 
-                    <div className="mdl-grid ">
+                    <div className="mdl-grid" >
                         <div className="mdl-cell mdl-cell--4-col">
                             <img className="features1" src="./img/Features/Feature 1.png"/>
                             <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
@@ -71,7 +71,7 @@ class Main extends Component {
                         </div>
                 </div>
 
-            <div className="mdl-grid ">
+            <div className="mdl-grid " id="products">
                 <div className="mdl-cell mdl-cell--6-col web">
                     <img className="photolivelogo" src="./img/logo/photolive-logo.png"/>
                 </div>
@@ -204,7 +204,7 @@ class Main extends Component {
                                             </button>
                                         </div>
                                      </div>
-            <div class="g-recaptcha" data-sitekey="6LfDICIUAAAAAFwFqdEch1dpOoowgXLdGukO7bAJ"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LfDICIUAAAAAFwFqdEch1dpOoowgXLdGukO7bAJ"></div>
                                 </form>
                              </div>
 
@@ -227,7 +227,7 @@ class Main extends Component {
                             </div>
                     </div>
 
-                    <div className="mdl-grid footer">
+                    <div className="mdl-grid footer" id="contact">
                         <img className="footer1" src="./img/Shapes/Footer.png"/>
                             <div className="mdl-cell mdl-cell--6-col footerlabel">
                                 <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
@@ -267,7 +267,6 @@ class Main extends Component {
                                      </div>
                                 </div>
                             </div>
-
                     </div>
         </div>
         );
