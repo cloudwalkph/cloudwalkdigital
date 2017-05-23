@@ -40,7 +40,7 @@ class Main extends Component {
 
                 </div>
 
-                <div className="mdl-grid aboutpage">
+                <div className="mdl-grid aboutpage" id="about">
                     <div className="mdl-cell mdl-cell--6-col">
                         <img className="shape5" src="./img/Shapes/RectangleWhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
@@ -208,7 +208,7 @@ class Main extends Component {
                         11th Jamboree, Quezon City, 1100 Metro Manila</p>
                     </div>
                 </div>
-
+                s
                 <div className="mdl-grid footer">
                     <img className="footer1" src="./img/Shapes/Footer.png"/>
                     <div className="mdl-cell mdl-cell--6-col footerlabel">
