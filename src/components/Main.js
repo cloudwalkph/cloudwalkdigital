@@ -194,8 +194,8 @@ class Main extends Component {
                 </div>
 
                 <div className="mdl-grid ">
-                    <div className="mdl-cell mdl-cell--12-col">
-                        <img className="bluebg"  src="./img/Shapes/Accent 2.png"/>
+                    <div className="mdl-cell mdl-cell--12-col bluediv">
+                        <img className="bluebg" src="./img/Shapes/Accent 2.png"/>
                     </div>
                 </div>
 

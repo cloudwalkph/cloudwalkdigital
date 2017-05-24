@@ -10,7 +10,7 @@ body {
 }
 
 .hide-temp {
-    display: none;
+    /*display: none;*/
 }
 
 .mdl-layout__drawer-button {
@@ -34,7 +34,16 @@ body {
 @media screen and (min-width:1024px) {}
 @media screen and (min-width:1220px) {
 
+    .bluediv {
+        width: 100%;
+        margin: 0;
+    }
 
+    form div.mdl-grid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
     .mdl-grid {
         width: 100%;
@@ -504,7 +513,7 @@ body {
 
     /*blue background*/
     .bluebg{
-        margin-left: -24px;
+        /*margin-left: -24px;*/
         margin-top: -126px;
     }
     /*blue background*/
@@ -512,9 +521,9 @@ body {
     /*start Map*/
     .map{
         height: 286px;
-        width: 1358px;
+        width: 100%;
         margin-top: -24px;
-        margin-left: -15px;
+        /*margin-left: -15px;*/
     }
 
     .tmap{
@@ -551,15 +560,16 @@ body {
     /*start Footer*/
     .footer{
         margin-top: -25px;
-        margin-left: -16px;
+        /*margin-left: -16px;*/
     }
 
     .footer1{
         height: 286px;
-        width: 1358px;
+        width: 100%;
     }
 
     .footerlabel{
+        margin-bottom: 0;
         margin-top: -219px;
         color: #fff;
         padding-left: 179px;
@@ -620,7 +630,7 @@ body {
     }
 
     .footercopyright{
-        margin-top: 40px;
+        margin: 0 0 40px 0;
     }
     /**end Footer*!*/
 
