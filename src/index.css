@@ -13,6 +13,10 @@ body {
     display: none;
 }
 
+.mdl-layout__drawer-button {
+    color: silver !important;
+}
+
 @media screen and (min-width:320px) {
 
     .mdl-grid {
@@ -29,6 +33,14 @@ body {
 @media screen and (min-width:940px) {}
 @media screen and (min-width:1024px) {}
 @media screen and (min-width:1220px) {
+
+
+
+    .mdl-grid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
     .mdl-fw {
         width: auto;
@@ -350,8 +362,8 @@ body {
     .feedbackgrid{
         background-color: #f8f8f8;
         height: 456px;
-        margin-left: -5px;
-        width: 1323px;
+        /*margin-left: -5px;*/
+        width: 100%;
         margin-top: 105px;
     }
     .feedback{
