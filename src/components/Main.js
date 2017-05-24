@@ -200,7 +200,7 @@ class Main extends Component {
                 </div>
 
                 <div className="mdl-grid">
-                    <img className="map" src="./img/Map/map.jpg"/>
+                    <div className="map" id="map"></div>
                     <div className="mdl-cell mdl-cell--12-col cwdmap">
                         <label className="drop" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
                         <img className="mapshape"  src="./img/Shapes/Rectangle 6.png"/>
