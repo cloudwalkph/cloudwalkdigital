@@ -143,7 +143,7 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 300px;
-        margin-top: 95px;
+        margin-top: 65px;
     }
 
     .shapepolygon{
@@ -157,7 +157,7 @@ body {
     .rectangle{
         position: absolute;
         z-index: 0;
-        margin-left: 50%;
+        margin-left: 55%;
     }
 
     .rectangle3{
@@ -187,29 +187,29 @@ body {
         z-index: 0;
         margin-left: 94%;
         margin-top: 38%;
-        height: 54%;
+        height: 8%;
     }
 
     .rectangle4{
         position: absolute;
         z-index: 0;
-        margin-top: 972px;
+        margin-top: 987px;
         margin-left: 400px;
     }
 
     .rectangle6{
         position: absolute;
         z-index: 0;
-        margin-top: 905px;
+        margin-top: 945px;
         width: 485px;
-        margin-left: 194px;
+        margin-left: 222px;
     }
 
     .polygon2{
         position: absolute;
         z-index: 0;
         margin-left: 46%;
-        margin-top: 797px;
+        margin-top: 819px;
         height: 55px;
     }
 
@@ -217,7 +217,7 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 56%;
-        margin-top: 2644px;
+        margin-top: 2633px;
         height: 60px;
     }
 
@@ -232,37 +232,38 @@ body {
     .ellipse22{
         position: absolute;
         z-index: 0;
-        margin-top: 2593px;
-        margin-left: 287px;
+        margin-top: 2606px;
+        margin-left: 288px;
+        height: 40px;
     }
 
     .polygon44{
         position: absolute;
         z-index: 0;
-        margin-top: 2912px;
+        margin-top: 2855px;
         margin-left: 287px;
-        height: 120px;
+        height: 110px;
     }
 
     .rectangle1{
         position: absolute;
         z-index: 0;
-        margin-top: 2821px;
-        margin-left: 10px;
-        height: 60px;
+        margin-top: 2763px;
+        margin-left: 26px;
+        height: 51px;
     }
 
     .rectangle2{
         position: absolute;
         z-index: 0;
-        margin-top: 2923px;
+        margin-top: 2890px;
         margin-left: 1171px;
         height: 100px;
     }
     /* End Shapes*/
 
     .newweb{
-        margin-top: 10px;
+        margin-top: -24px;
         color: #f5822c;
         font-size: 43px;
         text-align: center;
@@ -275,8 +276,8 @@ body {
     }
 
     .shape5{
-        height: 131px;
-        margin-top: 180px;
+        height: 108px;
+        margin-top: 242px;
         margin-left: 180px;
     }
 
@@ -284,16 +285,16 @@ body {
         font-size: 14px;
         color: #363636;
         text-align: center;
-        margin-right: 321px;
+        margin-right: 304px;
     }
 
     .newwebcaption{
-        margin-left: 94px;
-        margin-top: 10px;
+        margin-left: 114px;
+        margin-top: -13px;
     }
 
     .getsbutton{
-        margin-left: 95px;
+        margin-left: 114px;
         margin-top: 10px;
     }
 
@@ -312,14 +313,14 @@ body {
     }
 
     .caption{
-        margin-top: -109px;
-        margin-left: 229px;
+        margin-top: -94px;
+        margin-left: 213px;
         color: #fff;
     }
 
     .logo{
         height: 165px;
-        margin-top: 121px;
+        margin-top: 193px;
         margin-left: 130px;
     }
 
@@ -445,17 +446,18 @@ body {
         font-size: 20px;
         margin-right: 168px;
         color: #f5822c;
-        margin-left: 90px;
+        margin-left: 106px;
     }
 
     .shape6{
         width: 89px;
         height: 3px;
-        margin-left: 95px;
+        margin-left: 113px;
+        margin-top: -49px;
     }
 
     .comments{
-        margin-left: 90px;
+        margin-left: 107px;
     }
 
     .jonathan{
@@ -525,6 +527,7 @@ body {
     /*form*/
     .input{
         background-color: #f8f8f8;
+        /*margin-top: -29px;*/
     }
 
     #sample5{
@@ -697,6 +700,143 @@ body {
     /**end Footer*!*/
 
 }
-@media screen and (min-width:1583px) {}
+@media screen and (min-width:1583px) {
+
+    .page-content{
+        background: url('../public/img/bg/Cwd-Web1.png');
+    }
+
+    /*Start Shape*/
+
+    .polygon1{
+        margin-left: 448px;
+    }
+
+    .rectangle{
+        margin-left: 992px;
+    }
+
+    .shape5{
+        margin-top: 318px;
+    }
+
+    rectangle4{
+        margin-top: 1134px;
+    }
+
+    rectangle6{
+        margin-top: 1087px;
+        margin-left: 185px;
+    }
+
+    .polygon3{
+        margin-left: 1337px;
+        margin-top: 902px;
+    }
+
+    .rectangle05{
+        margin-top: 625px;
+        height: 409px;
+    }
+
+    .polygon2{
+        margin-top: 979px;
+        margin-left: 550px;
+        height: 66px;
+    }
+
+    .polygon22{
+        margin-top: 2765px;
+    }
+
+    .ellipse22{
+        margin-top: 2718px;
+        margin-left: 350px;
+    }
+
+    .polygon44{
+        margin-top: 2993px;
+        margin-left: 350px;
+    }
+
+    .rectangle1{
+        margin-top: 2903px;
+        margin-left: 97px;
+    }
+
+    .polygon33{
+        margin-top: 2844px;
+        margin-left: 1430px;
+    }
+
+    /*End Shape*/
+
+    .laptop{
+        margin-top: 139px;
+        margin-left: 52px;
+        height: 422px;
+    }
+
+    .nxtpro{
+        letter-spacing: 5px;
+        margin-left: 85px;
+    }
+
+    .shape6{
+        margin-top: -37px;
+        margin-left: 172px;
+    }
+
+    .newwebcaption{
+        margin-left: 171px;
+    }
+
+    .getsbutton{
+        margin-left: 170px;
+    }
+
+    .logo{
+        margin-top: 280px;
+    }
+
+    .caption1{
+        margin-top: 15px;
+    }
+
+
+
+    .shape6666{
+        margin-left: 191px;
+        margin-top: 10px;
+    }
+
+    .cfeedback{
+        margin-left: 212px;
+    }
+
+    .shape6{
+        margin-left: 216px;
+        margin-top: 10px;
+    }
+
+    .comments{
+        margin-left: 215px;
+        margin-top: 10px;
+    }
+
+    .constitle{
+        margin-left: 189px;
+    }
+
+    .conscomments{
+        margin-left: 188px;
+        margin-top: 10px;
+    }
+
+    .bluebg{
+        width: 100%;
+    }
+
+}
 
 
