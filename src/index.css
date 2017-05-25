@@ -10,14 +10,14 @@ body {
 }
 
 .hide-temp {
-    /*display: none;*/
+    display: none;
 }
 
 .mdl-layout__drawer-button {
     color: silver !important;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) and (max-width: 480px){
 
     .mdl-grid {
         width: 95%;
@@ -27,6 +27,60 @@ body {
         width: 100%;
     }
 
+    .bluebg {
+        width:100%;
+    }
+
+    .bluediv {
+        margin: 0;
+    }
+
+    .main-div {
+        width: 100%;
+        padding: 0;
+    }
+
+    .consult form{
+        z-index: 1;
+        background: white;
+        position: relative;
+    }
+
+    .blue-parent-div {
+        margin-top: -50px;
+        z-index: 0;
+    }
+
+    .map {
+        min-height: 300px;
+        width: 100%;
+    }
+
+    .mapshape {
+        width: 100%;
+    }
+
+    .footer1 {
+        width: 100%;
+    }
+
+    .footer, .socialmedia {
+        background: url("../public/img/Shapes/Footer.png");;
+        width: 100%;
+        max-height: 286px;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+    }
+    .footerlabel{
+        height: 94%;
+        padding: 30px 2vw;
+    }
+
+    .fbicon, .twittericon, .youtubeicon{
+        /*height: 100%;*/
+        width: 60%;
+    }
 }
 @media screen and (min-width:481px) {}
 @media screen and (min-width:567px) {}
@@ -559,24 +613,31 @@ body {
 
     /*start Footer*/
     .footer{
+        background: url("../public/img/Shapes/Footer.png");
         margin-top: -25px;
+        height: 286px;
+        width: 100%;
+        /*position: relative;*/
+        /*z-index: 1;*/
         /*margin-left: -16px;*/
     }
 
     .footer1{
-        height: 286px;
-        width: 100%;
+        /*height: 286px;*/
+        /*width: 100%;*/
     }
 
     .footerlabel{
-        margin-bottom: 0;
-        margin-top: -219px;
+        /*margin-bottom: 0;*/
+        /*margin-top: -219px;*/
         color: #fff;
-        padding-left: 179px;
+        /*padding-left: 179px;*/
+        padding: 50px 0 0 179px;
+
     }
 
     .footerlabel1{
-        margin-top: -219px;
+        /*margin-top: -219px;*/
 
     }
 
@@ -604,7 +665,8 @@ body {
     }
 
     .socialmedia{
-        margin-top: -243px;
+        /*margin-top: -243px;*/
+        padding: 50px 0 50px 0;
     }
 
     .tandc{

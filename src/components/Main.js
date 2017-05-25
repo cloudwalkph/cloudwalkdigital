@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Main extends Component {
     render() {
         return (
-            <div className="mdl-grid ">
+            <div className="mdl-grid main-div">
                 <img className="hide-temp ellipse" src="./img/Shapes/Ellipse.png"/>
                 <img className="hide-temp polygon1" src="./img/Shapes/Polygon 1.png"/>
                 <img className="hide-temp rectangle" src="./img/Shapes/Rectangle.png"/>
@@ -165,14 +165,9 @@ class Main extends Component {
                                 <div  className="mdl-cell mdl-cell--12-col" >
                                         <div className="mdl-textfield mdl-js-textfield message">
                                             <textarea className="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
-                                            <label className="mdl-textfield__label" htmlFor="sample5"></label>
+                                            <br/>
+                                            <label style={{fontFamily: 'Lato-Regular'}}>MESSAGE</label>
                                         </div>
-                                </div>
-                            </div>
-
-                            <div  className="mdl-grid" >
-                                <div  className="mdl-cell mdl-cell--12-col message1" >
-                                    <label style={{fontFamily: 'Lato-Regular'}}>MESSAGE</label>
                                 </div>
                             </div>
 
@@ -193,7 +188,7 @@ class Main extends Component {
                      </div>
                 </div>
 
-                <div className="mdl-grid ">
+                <div className="mdl-grid--no-spacing blue-parent-div">
                     <div className="mdl-cell mdl-cell--12-col bluediv">
                         <img className="bluebg" src="./img/Shapes/Accent 2.png"/>
                     </div>
@@ -208,9 +203,8 @@ class Main extends Component {
                         11th Jamboree, Quezon City, 1100 Metro Manila</p>
                     </div>
                 </div>
-                s
+
                 <div className="mdl-grid footer">
-                    <img className="footer1" src="./img/Shapes/Footer.png"/>
                     <div className="mdl-cell mdl-cell--6-col footerlabel">
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
@@ -223,28 +217,28 @@ class Main extends Component {
 
                      <div  className="mdl-cell mdl-cell--6-col socialmedia" >
                         <div  className="mdl-grid" >
-                            <div  className="mdl-cell mdl-cell--6-col" >
+                            <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
                             <img className="fbicon"  src="./img/SM/FB.png"/>
                             </div>
-                            <div className="mdl-cell mdl-cell--6-col tandc">
+                            <div className="mdl-cell mdl-cell--6-col  mdl-cell--3-col-phone tandc">
                                 <label style={{fontFamily: 'Lato-Regular'}}>TERMS AND CONDITIONS</label>
                             </div>
                         </div>
 
                         <div  className="mdl-grid twitter" >
-                            <div  className="mdl-cell mdl-cell--6-col" >
+                            <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
                                 <img className="twittericon"  src="./img/SM/Twitter.png"/>
                             </div>
-                            <div className="mdl-cell mdl-cell--6-col blog" >
+                            <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone blog" >
                                 <label style={{fontFamily: 'Lato-Regular'}}>BLOG</label>
                             </div>
                         </div>
 
                         <div  className="mdl-grid youtube" >
-                            <div  className="mdl-cell mdl-cell--6-col" >
+                            <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
                                 <img className="youtubeicon"  src="./img/SM/Youtube.png"/>
                             </div>
-                            <div className="mdl-cell mdl-cell--6-col footercontact">
+                            <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone footercontact">
                                 <label style={{fontFamily: 'Lato-Regular'}}>CONTACT</label>
                              </div>
                         </div>
