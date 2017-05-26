@@ -209,7 +209,7 @@ class Main extends Component {
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
                         <p className="">(02) 414 4014</p>
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored syp">
                             START YOUR PROJECT
                         </button>
                         <p className="footercopyright"> COPYRIGHT © 2017 CLOUDWALK DIGITAL ALL RIGHTS RESERVED</p>
