@@ -108,7 +108,7 @@ class Main extends Component {
                                 <img className="jonathan mdl-fw"  src="./img/Features/Photo.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col name">
-                                <label style={{fontFamily: 'Lato-Regular'}}>Jonathan L. Simmons<br/></label>
+                                <label className="name1" style={{fontFamily: 'Lato-Regular'}}>Jonathan L. Simmons<br/></label>
                                 <label className="company" style={{fontFamily: 'MerriweatherSans-Bold'}}>Blade and Babe Inc.</label>
                              </div>
                          </div>
@@ -125,7 +125,7 @@ class Main extends Component {
 
                     <div className="mdl-cell mdl-cell--6-col mdl-data-table--selectable mdl-shadow--2dp consultation1">
 
-                        <form action="" method="post">
+                        <form className="fillupform" action="" method="post">
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--6-col" >
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
