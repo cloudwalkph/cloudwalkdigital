@@ -4,22 +4,22 @@ class Main extends Component {
     render() {
         return (
             <div className="mdl-grid main-div">
-                <img className="hide-temp ellipse" src="./img/Shapes/Ellipse.png"/>
-                <img className="hide-temp polygon1" src="./img/Shapes/Polygon 1.png"/>
-                <img className="hide-temp rectangle" src="./img/Shapes/Rectangle.png"/>
-                <img className="hide-temp rectangle3" src="./img/Shapes/Rectangle 3.png"/>
-                <img className="hide-temp ellipse2" src="./img/Shapes/Ellipse 2.png"/>
-                <img className="hide-temp polygon3" src="./img/Shapes/Polygon 3.png"/>
-                <img className="hide-temp rectangle05" src="./img/Shapes/Rectangle 5.png"/>
-                <img className="hide-temp polygon2" src="./img/Shapes/Polygon 2.png"/>
-                <img className="hide-temp rectangle6" src="./img/Shapes/Rectangle 6.png"/>
-                <img className="hide-temp rectangle4" src="./img/Shapes/Rectangle 4.png"/>
-                <img className="hide-temp polygon22" src="./img/Shapes/Polygon 2.png"/>
-                <img className="hide-temp polygon33" src="./img/Shapes/Polygon 3.png"/>
-                <img className="hide-temp ellipse22" src="./img/Shapes/Ellipse 2.png"/>
-                <img className="hide-temp polygon44" src="./img/Shapes/Polygon 4.png"/>
-                <img className="hide-temp rectangle1" src="./img/Shapes/Rectangle.png"/>
-                <img className="hide-temp rectangle2" src="./img/Shapes/Rectangle 2.png"/>
+            <img className="hide-temp rotate ellipse" src="./img/Shapes/Ellipse.png"/>
+            <img className="hide-temp rotate polygon1" src="./img/Shapes/Polygon 1.png"/>
+            <img className="hide-temp rotate rectangle" src="./img/Shapes/Rectangle.png"/>
+            <img className="hide-temp rotate rectangle3" src="./img/Shapes/Rectangle 3.png"/>
+            <img className="hide-temp rotate ellipse2" src="./img/Shapes/Ellipse 2.png"/>
+            <img className="hide-temp rotate polygon3" src="./img/Shapes/Polygon 3.png"/>
+            <img className="hide-temp rectangle05" src="./img/Shapes/Rectangle 5.png"/>
+            <img className="hide-temp rotate polygon2" src="./img/Shapes/Polygon 2.png"/>
+            <img className="hide-temp rectangle6" src="./img/Shapes/Rectangle 6.png"/>
+            <img className="hide-temp rotate rectangle4" src="./img/Shapes/Rectangle 4.png"/>
+            <img className="hide-temp rotate polygon22" src="./img/Shapes/Polygon 2.png"/>
+            <img className="hide-temp rotate polygon33" src="./img/Shapes/Polygon 3.png"/>
+            <img className="hide-temp rotate ellipse22" src="./img/Shapes/Ellipse 2.png"/>
+            <img className="hide-temp rotate polygon44" src="./img/Shapes/Polygon 4.png"/>
+            <img className="hide-temp rotate rectangle1" src="./img/Shapes/Rectangle.png"/>
+            <img className="hide-temp rotate rectangle2" src="./img/Shapes/Rectangle 2.png"/>
 
 
                 <div className="mdl-grid webcover">

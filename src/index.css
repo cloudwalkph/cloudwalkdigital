@@ -13,6 +13,38 @@ body {
     /*display: none;*/
 }
 
+.rotate {
+    -webkit-animation-duration: 10s, 10s;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: spin, example;
+    -webkit-animation-timing-function: linear, linear;
+
+    -moz-animation-duration: 10s, 10s;
+    -moz-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: spin, example;
+    -moz-animation-timing-function: linear, linear;
+
+    animation-duration: 10s, 10s;
+    animation-iteration-count: infinite, infinite;
+    animation-name: spin, example;
+    animation-timing-function: linear, linear;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 .mdl-layout__drawer-button {
     color: silver !important;
 }
