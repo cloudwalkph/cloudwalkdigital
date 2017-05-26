@@ -10,7 +10,7 @@ class TopMenu extends Component {
                 <header className="mdl-layout mdl-layout__header mdl-layout__header--transparent">
                     <div className="mdl-layout__header-row">
                         <span className="mdl-layout-title">
-                            <img style={{height: '50px'}} src="./img/logo/CWD Logo.png"/>
+                            <img style={{height: '50px'}} src="./img/logo/cwd-logo.png"/>
                         </span>
                         <div className="mdl-layout-spacer"></div>
                         <nav className="mdl-navigation mdl-layout--large-screen-only">
@@ -18,20 +18,20 @@ class TopMenu extends Component {
                             <a className="mdl-navigation__link submenu" href="#about">ABOUT</a>
                             <a className="mdl-navigation__link submenu" href="#product">PRODUCTS</a>
                             <a className="mdl-navigation__link submenu" href="">PARTNERS</a>
-                            <a className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored contactmenu" href="#contacts">CONTACT US</a>
+                            <a className="mdl-navigation__link submenu mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="#contacts">CONTACT US</a>
                         </nav>
                     </div>
                 </header>
                 <div className="mdl-layout__drawer mdl-cell--hide-desktop">
                     <span className="mdl-layout-title">
-                        <img style={{height: '50px'}} src="./img/logo/CWD Logo.png"/>
+                        <img style={{height: '50px'}} src="./img/logo/cwd-logo.png"/>
                     </span>
                     <nav className="mdl-navigation">
                         <a className="mdl-navigation__link submenu" href="">HOME</a>
                         <a className="mdl-navigation__link submenu" href="">ABOUT</a>
                         <a className="mdl-navigation__link submenu" href="">PRODUCTS</a>
                         <a className="mdl-navigation__link submenu" href="">PARTNERS</a>
-                        <a className="mdl-navigation__link submenu " href="">CONTACT US</a>
+                        <a className="mdl-navigation__link submenu" href="">CONTACT US</a>
                     </nav>
                 </div>
                 <main className="mdl-layout__content">
