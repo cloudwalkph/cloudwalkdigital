@@ -15,10 +15,10 @@ class TopMenu extends Component {
                         <div className="mdl-layout-spacer"></div>
                         <nav className="mdl-navigation mdl-layout--large-screen-only">
                             <a className="mdl-navigation__link submenu" href="">HOME</a>
-                            <a className="mdl-navigation__link submenu" href="">ABOUT</a>
-                            <a className="mdl-navigation__link submenu" href="">PRODUCTS</a>
+                            <a className="mdl-navigation__link submenu" href="#about">ABOUT</a>
+                            <a className="mdl-navigation__link submenu" href="#product">PRODUCTS</a>
                             <a className="mdl-navigation__link submenu" href="">PARTNERS</a>
-                            <a className="mdl-navigation__link submenu" href="">CONTACT US</a>
+                            <a className="mdl-navigation__link submenu" href="#contacts">CONTACT US</a>
                         </nav>
                     </div>
                 </header>

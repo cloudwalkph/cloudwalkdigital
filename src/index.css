@@ -10,7 +10,7 @@ body {
 }
 
 .hide-temp {
-    display: none;
+    /*display: none;*/
 }
 
 .mdl-layout__drawer-button {
@@ -201,8 +201,8 @@ body {
         position: absolute;
         z-index: 0;
         margin-top: 945px;
-        width: 485px;
-        margin-left: 222px;
+        width: 510px;
+        margin-left: 189px;
     }
 
     .polygon2{
@@ -217,7 +217,7 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 56%;
-        margin-top: 2633px;
+        margin-top: 2801px;
         height: 60px;
     }
 
@@ -225,14 +225,14 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 93%;
-        margin-top: 2710px;
+        margin-top: 2864px;
         height: 45px;
     }
 
     .ellipse22{
         position: absolute;
         z-index: 0;
-        margin-top: 2606px;
+        margin-top: 2760px;
         margin-left: 288px;
         height: 40px;
     }
@@ -240,7 +240,7 @@ body {
     .polygon44{
         position: absolute;
         z-index: 0;
-        margin-top: 2855px;
+        margin-top: 3030px;
         margin-left: 287px;
         height: 110px;
     }
@@ -248,7 +248,7 @@ body {
     .rectangle1{
         position: absolute;
         z-index: 0;
-        margin-top: 2763px;
+        margin-top: 2911px;
         margin-left: 26px;
         height: 51px;
     }
@@ -256,7 +256,7 @@ body {
     .rectangle2{
         position: absolute;
         z-index: 0;
-        margin-top: 2890px;
+        margin-top: 3005px;
         margin-left: 1171px;
         height: 100px;
     }
@@ -272,7 +272,8 @@ body {
     .shape6{
         width: 89px;
         height: 3px;
-        margin-left: 95px;
+        margin-left: 111px;
+        margin-top: -39px;
     }
 
     .shape5{
@@ -420,15 +421,21 @@ body {
         margin-left: -100px;
     }
 
+    #product{
+        margin-top: 100px;
+    }
+
     /*end Products*/
 
     /*Start Feedback*/
+
+
     .feedbackgrid{
         background-color: #f8f8f8;
         height: 456px;
         /*margin-left: -5px;*/
         width: 100%;
-        margin-top: 105px;
+        margin-top: 166px;
     }
     .feedback{
         margin-top: 131px;
@@ -449,11 +456,11 @@ body {
         margin-left: 106px;
     }
 
-    .shape6{
+    .shape06{
         width: 89px;
         height: 3px;
-        margin-left: 113px;
-        margin-top: -49px;
+        margin-left: 108px;
+        margin-top: 1px;
     }
 
     .comments{
@@ -696,6 +703,7 @@ body {
 
     .footercopyright{
         margin: 0 0 40px 0;
+        margin-top: 23px;
     }
     /**end Footer*!*/
 

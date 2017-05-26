@@ -72,12 +72,12 @@ class Main extends Component {
                     </div>
                 </div>
 
-                <div className="mdl-grid">
+                <div className="mdl-grid" id="product">
                     <div className="mdl-cell mdl-cell--6-col web">
                         <img className="photolivelogo mdl-fw" src="./img/logo/photolive-logo.png"/>
                     </div>
 
-                    <div className="mdl-cell mdl-cell--6-col products">
+                    <div className="mdl-cell mdl-cell--6-col products" >
                         <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
                         <img className="shape666 mdl-fw" src="./img/Shapes/Rectangle 6.png"/>
                         <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br/> booth in the country that allow's brands to gain valuable<br/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
@@ -91,7 +91,7 @@ class Main extends Component {
                 <div className="mdl-grid feedbackgrid">
                     <div className="mdl-cell mdl-cell--6-col feedback">
                         <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
-                        <img className="shape6 mdl-fw"  src="./img/Shapes/Rectangle 6.png"/>
+                        <img className="shape06 mdl-fw"  src="./img/Shapes/Rectangle 6.png"/>
                         <p className="comments">We’ve worked with some of the world’s best customers.<br/>
                         Helping these guys succeed with a little help from us was<br/>
                         a pretty fulfilling experience for us. We hope to add you here!
@@ -204,7 +204,7 @@ class Main extends Component {
                     </div>
                 </div>
 
-                <div className="mdl-grid footer">
+                <div className="mdl-grid footer" id="contacts">
                     <div className="mdl-cell mdl-cell--6-col footerlabel">
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
