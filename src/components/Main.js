@@ -43,12 +43,12 @@ class Main extends Component {
                 <div className="mdl-grid aboutpage" id="about">
                     <div className="mdl-cell mdl-cell--6-col">
                         <img className="shape5" src="./img/Shapes/RectangleWhite.png"/>
-                        <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
+                        <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting (Coding) for you! </p>
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col ">
                         <img className="logo mdl-fw" src="./img/Logo/Cloudwalk Logo.png"/>
-                        <p className="caption1"> We are a digital (obviously) solutions company that create products to<br/> improve and innovata companies across the globe. We create unparalleled <br/> systematic business solutions to make operations more officients.</p>
+                        <p className="caption1"> We are a digital (obviously) solutions company that create products to<br/> improve and innovate companies across the globe. We create unparalleled <br/> systematic business solutions to make operations more officients.</p>
                         
                     </div>
                 </div>
@@ -57,7 +57,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--4-col">
                         <img className="features1 mdl-fw" src="./img/Features/Feature 1.png"/>
                         <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
-                        <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, yuo've gotta flow. celebrate<br/> success right, The only way, apple.</p>
+                        <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, you've gotta flow. celebrate<br/> success right, The only way, apple.</p>
                     </div>
                     <div className="mdl-cell mdl-cell--4-col ">
                         <img className="features2 mdl-fw" src="./img/Features/Feature 2.png"/>
