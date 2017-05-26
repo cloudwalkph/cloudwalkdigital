@@ -338,7 +338,7 @@ body {
     .getsbutton{
         margin-left: 114px;
         margin-top: 10px;
-        background: #63d6ef;
+        background: #63d6ef !important;
     }
 
     .laptop{
@@ -459,7 +459,7 @@ body {
 
     .productbtn{
         margin-left: 20px;
-        background: #63d6ef;
+        background: #63d6ef !important;
     }
 
     .shape666{
@@ -634,6 +634,7 @@ body {
 
     .submitbtn{
         width: 100%;
+        background: #63d6ef !important;
     }
     /* end free consultation*/
 
@@ -715,7 +716,7 @@ body {
     }
 
     .syp{
-        background: #63d6ef;
+        background: #63d6ef !important;
     }
 
     .fbicon{
@@ -871,6 +872,8 @@ body {
 
     .getsbutton{
         margin-left: 170px;
+        background: #63d6ef;
+    }
     }
 
     .logo{
@@ -893,8 +896,8 @@ body {
     }
 
     .shape6{
-        margin-left: 216px;
-        margin-top: 10px;
+        margin-left: 112px;
+        margin-top: -41px;
     }
 
     .comments{
@@ -915,6 +918,6 @@ body {
         width: 100%;
     }
 
-}
+
 
 
