@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+
 
 class Main extends Component {
+    constructor(props) {
+        super(props);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        // alert(event);
+        axios.post('http://127.0.0.1:8000/mailsender', {
+                firstName: 'Fred',
+                lastName: 'Flintstone'
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    }
+
     render() {
         return (
             <div className="mdl-grid main-div">
@@ -61,7 +83,7 @@ class Main extends Component {
                     </div>
                     <div className="mdl-cell mdl-cell--4-col ">
                         <img className="features2 mdl-fw" src="./img/features/feature-2.png"/>
-                        <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Deveopment</label>
+                        <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Development</label>
                         <p className="wdfeatures2">I'm up to something. The first of the month is<br/> comming, we have to get money, we have no<br/> choice. It cost money to eat and they don't<br/> want you to eat. You smart, you loyal.</p>
 
                     </div>
@@ -80,7 +102,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col products" >
                         <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
                         <img className="shape666 mdl-fw" src="./img/shapes/rectangle-6.png"/>
-                        <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br/> booth in the country that allow's brands to gain valuable<br/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
+                        <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br className="mdl-layout--large-screen-only"/> booth in the country that allow's brands to gain valuable<br className="mdl-layout--large-screen-only"/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
 
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
                             VISIT SITE
@@ -92,8 +114,8 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col feedback">
                         <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
                         <img className="shape06 mdl-fw"  src="./img/shapes/rectangle-6.png"/>
-                        <p className="comments">We’ve worked with some of the world’s best customers.<br/>
-                        Helping these guys succeed with a little help from us was<br/>
+                        <p className="comments">We’ve worked with some of the world’s best customers.<br className="mdl-layout--large-screen-only"/>
+                        Helping these guys succeed with a little help from us was<br className="mdl-layout--large-screen-only"/>
                         a pretty fulfilling experience for us. We hope to add you here!
                         </p>
                     </div>
@@ -125,7 +147,7 @@ class Main extends Component {
 
                     <div className="mdl-cell mdl-cell--6-col mdl-data-table--selectable mdl-shadow--2dp consultation1">
 
-                        <form action="" method="post">
+                        <form onSubmit={ this.handleSubmit } type="post">
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--6-col" >
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -179,7 +201,7 @@ class Main extends Component {
 
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--12-col" >
-                                    <button style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored submitbtn">
+                                    <button type="submit" style={{fontFamily: 'Lato-Regular'}} className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored submitbtn">
                                         SUBMIT
                                     </button>
                                 </div>

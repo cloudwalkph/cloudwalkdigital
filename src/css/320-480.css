@@ -69,6 +69,7 @@
 
     .logo {
         margin-top: 0px;
+        margin-bottom: 5vh;
     }
 
     .page-content{
@@ -118,5 +119,55 @@
 
     .webcover {
         margin-top: 10vh;
+    }
+
+    .caption, .caption1, .omsfeatures1, .wdfeatures2, .photoliveinfo, .comments, .clientqoute {
+        color: #7a7a7a;
+        text-align: center;
+    }
+
+    .oms, .wd, .dg, .products1, .cfeedback {
+        color: #f5822c;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .oms {
+        margin-left: 12vw;
+    }
+
+    .wd {
+        margin-left: 22vw;
+    }
+
+    .dg {
+        margin-left: 24vw;
+    }
+
+    .productbtn {
+        background: #63d6ef !important;
+    }
+
+    .products{
+        text-align: center;
+    }
+
+    .products{
+        text-align: left;
+    }
+
+    .titleqoute {
+        font-size: 24px;
+        color: #7a7a7a;
+        line-height: 30px;
+    }
+
+    .qoute {
+        font-size: 40px;
+        color: #f5822c;
+    }
+
+    .clientqoute {
+        margin-top: 10px;
     }
 }
