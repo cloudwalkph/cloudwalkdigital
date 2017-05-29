@@ -7,13 +7,13 @@ class TopMenu extends Component {
     render() {
         return (
             <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
-                <header className="mdl-layout mdl-layout__header mdl-layout__header--transparent">
-                    <div className="mdl-layout__header-row">
+                <header className="mdl-layout mdl-layout__header mdl-layout__header csssample">
+                    <div className="mdl-layout__header-row ">
                         <span className="mdl-layout-title">
                             <img style={{height: '50px'}} src="./img/logo/cwd-logo.png"/>
                         </span>
                         <div className="mdl-layout-spacer"></div>
-                        <nav className="mdl-navigation mdl-layout--large-screen-only">
+                        <nav className="mdl-navigation mdl-layout--large-screen-only" id="menu">
                             <a className="mdl-navigation__link submenu" href="">HOME</a>
                             <a className="mdl-navigation__link submenu" href="#about">ABOUT</a>
                             <a className="mdl-navigation__link submenu" href="#product">PRODUCTS</a>
