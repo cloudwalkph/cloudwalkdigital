@@ -1,0 +1,139 @@
+
+@media screen and (min-width:1583px) {
+
+    .mdl-grid--no-spacing {
+        width: 100%;
+    }
+
+    .page-content{
+        background: url('../../public/img/bg/cwd-web1.png');
+    }
+
+    /*Start Shape*/
+
+    .polygon1{
+        margin-left: 448px;
+    }
+
+    .rectangle{
+        margin-left: 992px;
+    }
+
+    .shape5{
+        margin-top: 318px;
+    }
+
+    rectangle4{
+        margin-top: 1134px;
+    }
+
+    rectangle6{
+        margin-top: 1087px;
+        margin-left: 185px;
+    }
+
+    .polygon3{
+        margin-left: 1337px;
+        margin-top: 902px;
+    }
+
+    .rectangle05{
+        margin-top: 625px;
+        height: 409px;
+    }
+
+    .polygon2{
+        margin-top: 979px;
+        margin-left: 550px;
+        height: 66px;
+    }
+
+    .polygon22{
+        margin-top: 2765px;
+    }
+
+    .ellipse22{
+        margin-top: 2718px;
+        margin-left: 350px;
+    }
+
+    .polygon44{
+        margin-top: 2993px;
+        margin-left: 350px;
+    }
+
+    .rectangle1{
+        margin-top: 2903px;
+        margin-left: 97px;
+    }
+
+    .polygon33{
+        margin-top: 2844px;
+        margin-left: 1430px;
+    }
+
+    /*End Shape*/
+
+    .laptop{
+        margin-top: 139px;
+        margin-left: 52px;
+        height: 422px;
+    }
+
+    .nxtpro{
+        letter-spacing: 5px;
+        margin-left: 85px;
+    }
+
+    .shape6{
+        margin-top: -37px;
+        margin-left: 172px;
+    }
+
+    .newwebcaption{
+        margin-left: 171px;
+    }
+
+    .getsbutton{
+        margin-left: 170px;
+        background: #63d6ef;
+    }
+
+
+    .logo{
+        /*margin-top: 280px;*/
+        margin-top: 172px;
+    }
+
+    .caption1{
+        margin-top: 15px;
+    }
+
+    .shape6666{
+        margin-left: 191px;
+        margin-top: 10px;
+    }
+
+    .cfeedback{
+        margin-left: 212px;
+    }
+
+    .shape6{
+        margin-left: 112px;
+        margin-top: -41px;
+    }
+
+    .comments{
+        margin-left: 215px;
+        margin-top: 10px;
+    }
+
+    .constitle{
+        margin-left: 189px;
+    }
+
+    .conscomments{
+        margin-left: 188px;
+        margin-top: 10px;
+    }
+}
