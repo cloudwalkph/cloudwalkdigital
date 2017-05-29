@@ -69,8 +69,9 @@
     .rectangle{
         position: absolute;
         z-index: 0;
-        margin-left: 55%;
+        margin-left: 57%;
         margin-top: 77px;
+        height: 43px;
     }
 
     .rectangle3{
@@ -101,7 +102,7 @@
         z-index: 0;
         margin-left: 94%;
         /*margin-top: 42%;*/
-        margin-top: 38%;
+        margin-top: 41%;
         height: 8%;
     }
 
@@ -132,7 +133,7 @@
         position: absolute;
         z-index: 0;
         margin-left: 56%;
-        margin-top: 2733px;
+        margin-top: 2792px;
         height: 60px;
     }
 
@@ -147,7 +148,7 @@
     .ellipse22{
         position: absolute;
         z-index: 0;
-        margin-top: 2700px;
+        margin-top: 2741px;
         margin-left: 288px;
         height: 40px;
     }
@@ -218,7 +219,7 @@
     }
 
     .laptop{
-        margin-top: 126px;
+        margin-top: 192px;
         height: 349px;
     }
 
@@ -239,7 +240,7 @@
 
     .logo{
         height: 165px;
-        margin-top: 193px;
+        margin-top: 145px;
         margin-left: 130px;
     }
 
@@ -385,7 +386,7 @@
     .shape06{
         width: 89px;
         height: 3px;
-        margin-left: 214px;
+        margin-left: 108px;
         margin-top: 1px;
     }
 
