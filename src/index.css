@@ -220,7 +220,7 @@ body {
     .polygon3{
         position: absolute;
         z-index: 0;
-        margin-top: 61%;
+        margin-top: 52%;
         margin-left: 85%;
 
     }
@@ -229,7 +229,7 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 94%;
-        margin-top: 47%;
+        margin-top: 38%;
         height: 8%;
     }
 
@@ -512,7 +512,7 @@ body {
     .shape06{
         width: 89px;
         height: 3px;
-        margin-left: 214px;
+        margin-left: 108px;
         margin-top: 1px;
     }
 
