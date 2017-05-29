@@ -115,7 +115,7 @@ class Main extends Component {
                     </div>
                 </div>
 
-                <div className="mdl-grid consult ">
+                <div className="mdl-grid consult" id="contacts">
                     <div className="mdl-cell mdl-cell--6-col consultation">
                         <label className="constitle" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Get a Free Consultation</label>
                         <img className="shape6666 mdl-fw"  src="./img/shapes/rectangle-6.png"/>
@@ -204,7 +204,7 @@ class Main extends Component {
                     </div>
                 </div>
 
-                <div className="mdl-grid footer" id="contacts">
+                <div className="mdl-grid footer">
                     <div className="mdl-cell mdl-cell--6-col footerlabel">
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
