@@ -49,7 +49,6 @@ class Main extends Component {
 
 
                 <div className="mdl-grid webcover">
-
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone web">
                         <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
                         <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
@@ -63,7 +62,6 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
                         <img className="laptop mdl-fw" src="./img/laptop/laptop.png"/>
                     </div>
-
                 </div>
 
                 <div className="mdl-grid aboutpage" id="about">
@@ -75,7 +73,6 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col ">
                         <img className="logo mdl-fw" src="./img/logo/cloudwalk-logo.png"/>
                         <p className="caption1"> We are a digital (obviously) solutions company that create products to<br/> improve and innovata companies across the globe. We create unparalleled <br/> systematic business solutions to make operations more officients.</p>
-                        
                     </div>
                 </div>
 
@@ -136,7 +133,7 @@ class Main extends Component {
                                 <img className="jonathan mdl-fw"  src="./img/features/photo.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col name">
-                                <label style={{fontFamily: 'Lato-Regular'}}>Jonathan L. Simmons<br/></label>
+                                <label className="namej" style={{fontFamily: 'Lato-Regular'}}>Jonathan L. Simmons<br/></label>
                                 <label className="company" style={{fontFamily: 'MerriweatherSans-Bold'}}>Blade and Babe Inc.</label>
                              </div>
                          </div>
