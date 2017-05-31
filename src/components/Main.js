@@ -10,10 +10,14 @@ class Main extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        // alert(event);
+        const formData = new FormData( event.target );
+
         axios.post('http://127.0.0.1:8000/mailsender', {
-                firstName: 'Fred',
-                lastName: 'Flintstone'
+                firstName   : formData.get('firstname'),
+                lastName    : formData.get('lastname'),
+                emailAddress: formData.get('emailaddress'),
+                phone       : formData.get('phone'),
+                message     : formData.get('message'),
             })
             .then(function (response) {
                 console.log(response);
@@ -151,7 +155,7 @@ class Main extends Component {
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--6-col" >
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input className="mdl-textfield__input input" type="text" id="first_name"></input>
+                                        <input className="mdl-textfield__input input" type="text" id="first_name" name="firstname"></input>
                                         <br/>
                                         <label style={{fontFamily: 'Lato-Regular'}} htmlFor="first_name">FIRST NAME</label>
                                     </div>
@@ -159,7 +163,7 @@ class Main extends Component {
 
                                 <div className="mdl-cell mdl-cell--6-col">
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input className="mdl-textfield__input input" type="text" id="last_name"></input>
+                                        <input className="mdl-textfield__input input" type="text" id="last_name" name="lastname"></input>
                                         <br/>
                                         <label style={{fontFamily: 'Lato-Regular'}} htmlFor="last_name">LAST NAME</label>
                                     </div>
@@ -169,14 +173,14 @@ class Main extends Component {
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--6-col" >
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                        <input className="mdl-textfield__input input" type="text" id="email_address" name="emailaddress"></input>
                                         <br/>
                                         <label style={{fontFamily: 'Lato-Regular'}} htmlFor="">EMAIL ADDRESS</label>
                                     </div>
                                 </div>
                                 <div className="mdl-cell mdl-cell--6-col">
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                        <input className="mdl-textfield__input input" type="text" id="sample3"></input>
+                                        <input className="mdl-textfield__input input" type="text" id="phone_number" name="phone"></input>
                                         <br/>
                                         <label style={{fontFamily: 'Lato-Regular'}}>PHONE</label>
                                     </div>
@@ -186,7 +190,7 @@ class Main extends Component {
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--12-col" >
                                         <div className="mdl-textfield mdl-js-textfield message">
-                                            <textarea className="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+                                            <textarea className="mdl-textfield__input" type="text" rows= "3" id="message" name="message"></textarea>
                                             <br/>
                                             <label style={{fontFamily: 'Lato-Regular'}}>MESSAGE</label>
                                         </div>
