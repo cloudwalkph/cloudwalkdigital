@@ -5,8 +5,11 @@ import axios from 'axios';
 class Main extends Component {
     constructor(props) {
         super(props);
+
+        this.state = {value: ''};
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
 
     handleSubmit(event) {
         event.preventDefault();
@@ -20,32 +23,42 @@ class Main extends Component {
                 message     : formData.get('message'),
             })
             .then(function (response) {
-                console.log(response);
+                // console.log(response);
+                document.getElementById("cont").reset();
+
+                var dialog = document.querySelector('dialog');
+                dialog.showModal();
+                dialog.querySelector('.close').addEventListener('click', function() {
+                    dialog.close();
+                });
+
             })
             .catch(function (error) {
                 console.log(error);
             });
+
+        this.setState({value: null});
     }
 
     render() {
         return (
             <div className="mdl-grid main-div">
-            <img className="hide-temp shapes rotate ellipse" src="./img/shapes/ellipse.png"/>
-            <img className="hide-temp shapes rotate polygon1" src="./img/shapes/polygon-1.png"/>
-            <img className="hide-temp shapes rotate rectangle" src="./img/shapes/rectangle.png"/>
-            <img className="hide-temp shapes rotate rectangle3" src="./img/shapes/rectangle-3.png"/>
-            <img className="hide-temp shapes rotate ellipse2" src="./img/shapes/ellipse-2.png"/>
-            <img className="hide-temp shapes rotate polygon3" src="./img/shapes/polygon-3.png"/>
-            <img className="hide-temp shapes rectangle05" src="./img/shapes/rectangle-5.png"/>
-            <img className="hide-temp shapes rotate polygon2" src="./img/shapes/polygon-2.png"/>
-            <img className="hide-temp shapes rectangle6" src="./img/shapes/rectangle-6.png"/>
-            <img className="hide-temp shapes rotate rectangle4" src="./img/shapes/rectangle-4.png"/>
-            <img className="hide-temp shapes rotate polygon22" src="./img/shapes/polygon-2.png"/>
-            <img className="hide-temp shapes rotate polygon33" src="./img/shapes/polygon-3.png"/>
-            <img className="hide-temp shapes rotate ellipse22" src="./img/shapes/ellipse-2.png"/>
-            <img className="hide-temp shapes rotate polygon44" src="./img/shapes/polygon-4.png"/>
-            <img className="hide-temp shapes rotate rectangle1" src="./img/shapes/rectangle.png"/>
-            <img className="hide-temp shapes rotate rectangle2" src="./img/shapes/rectangle-2.png"/>
+                <img className="hide-temp shapes rotate ellipse" src="./img/shapes/ellipse.png"/>
+                <img className="hide-temp shapes rotate polygon1" src="./img/shapes/polygon-1.png"/>
+                <img className="hide-temp shapes rotate rectangle" src="./img/shapes/rectangle.png"/>
+                <img className="hide-temp shapes rotate rectangle3" src="./img/shapes/rectangle-3.png"/>
+                <img className="hide-temp shapes rotate ellipse2" src="./img/shapes/ellipse-2.png"/>
+                <img className="hide-temp shapes rotate polygon3" src="./img/shapes/polygon-3.png"/>
+                <img className="hide-temp shapes rectangle05" src="./img/shapes/rectangle-5.png"/>
+                <img className="hide-temp shapes rotate polygon2" src="./img/shapes/polygon-2.png"/>
+                <img className="hide-temp shapes rectangle6" src="./img/shapes/rectangle-6.png"/>
+                <img className="hide-temp shapes rotate rectangle4" src="./img/shapes/rectangle-4.png"/>
+                <img className="hide-temp shapes rotate polygon22" src="./img/shapes/polygon-2.png"/>
+                <img className="hide-temp shapes rotate polygon33" src="./img/shapes/polygon-3.png"/>
+                <img className="hide-temp shapes rotate ellipse22" src="./img/shapes/ellipse-2.png"/>
+                <img className="hide-temp shapes rotate polygon44" src="./img/shapes/polygon-4.png"/>
+                <img className="hide-temp shapes rotate rectangle1" src="./img/shapes/rectangle.png"/>
+                <img className="hide-temp shapes rotate rectangle2" src="./img/shapes/rectangle-2.png"/>
 
 
                 <div className="mdl-grid webcover">
@@ -151,7 +164,7 @@ class Main extends Component {
 
                     <div className="mdl-cell mdl-cell--6-col mdl-data-table--selectable mdl-shadow--2dp consultation1">
 
-                        <form onSubmit={ this.handleSubmit } type="post">
+                        <form id="cont" onSubmit={ this.handleSubmit } type="post">
                             <div  className="mdl-grid" >
                                 <div  className="mdl-cell mdl-cell--6-col" >
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -270,6 +283,19 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
+
+                <dialog className="mdl-dialog">
+                    <h4 className="mdl-dialog__title">Cloudwalk Digital</h4>
+                    <div className="mdl-dialog__content">
+                        <p>
+                            Thank you for submitting your inquiry.
+                        </p>
+                    </div>
+                    <div className="mdl-dialog__actions">
+                        <button type="button" className="mdl-button close">Close</button>
+                    </div>
+                </dialog>
+
             </div>
         );
     }
