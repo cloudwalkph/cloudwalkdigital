@@ -65,13 +65,32 @@ body {
     color: silver !important;
 }
 
-
-
-
 .bluebg{
     width: 100%;
 }
 
+.mdl-button {
+    letter-spacing: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+sup {
+    color: #f2504d;
+}
 
 
+label {
+    color: #7a7a7a;
+}
+
+.start {
+    background: #62d6ef !important;
+}
 

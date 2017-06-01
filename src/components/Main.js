@@ -80,19 +80,19 @@ class Main extends Component {
                 </div>
 
                 <div className="mdl-grid">
-                    <div className="mdl-cell mdl-cell--4-col">
-                        <img className="features1 mdl-fw" src="./img/features/feature-1.png"/>
+                    <div className="mdl-cell mdl-cell--4-col text-center">
+                        <img className="features1 mdl-fw" src="./img/features/feature-1.png"/> <br/>
                         <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
                         <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, yuo've gotta flow. celebrate<br/> success right, The only way, apple.</p>
                     </div>
-                    <div className="mdl-cell mdl-cell--4-col ">
-                        <img className="features2 mdl-fw" src="./img/features/feature-2.png"/>
+                    <div className="mdl-cell mdl-cell--4-col  text-center">
+                        <img className="features2 mdl-fw" src="./img/features/feature-2.png"/> <br/>
                         <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Development</label>
                         <p className="wdfeatures2">I'm up to something. The first of the month is<br/> comming, we have to get money, we have no<br/> choice. It cost money to eat and they don't<br/> want you to eat. You smart, you loyal.</p>
 
                     </div>
-                    <div className="mdl-cell mdl-cell--4-col">
-                        <img className="features3 mdl-fw" src="./img/features/feature-3.png"/>
+                    <div className="mdl-cell mdl-cell--4-col text-center">
+                        <img className="features3 mdl-fw" src="./img/features/feature-3.png"/> <br/>
                         <label className="dg" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Digital Marketing</label>
                         <p className="dgfeatures3">It's Important to use cocoa butter. It's the key<br/> to more success, why not live smooth? Why<br/> live rough? The other day the grass was brown.<br/> now it's green because I ain't give up.</p>
                     </div>
@@ -106,7 +106,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col products" >
                         <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
                         <img className="shape666 mdl-fw" src="./img/shapes/rectangle-6.png"/>
-                        <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br className="mdl-layout--large-screen-only"/> booth in the country that allow's brands to gain valuable<br className="mdl-layout--large-screen-only"/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
+                        <p className="photoliveinfo"><font style={{ color: '#63d6ef'}}>Photolive</font> is a social media tool and the first digital photo<br className="mdl-layout--large-screen-only"/> booth in the country that allow's brands to gain valuable<br className="mdl-layout--large-screen-only"/>presence in top social networking sites like Facebook,<br className="mdl-layout--large-screen-only"/> Instagram, Twitter and Email in real time. </p>
 
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
                             VISIT SITE
@@ -117,7 +117,9 @@ class Main extends Component {
                 <div className="mdl-grid feedbackgrid">
                     <div className="mdl-cell mdl-cell--6-col feedback">
                         <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
+                        <br/>
                         <img className="shape06 mdl-fw"  src="./img/shapes/rectangle-6.png"/>
+                        <br/>
                         <p className="comments">We’ve worked with some of the world’s best customers.<br className="mdl-layout--large-screen-only"/>
                         Helping these guys succeed with a little help from us was<br className="mdl-layout--large-screen-only"/>
                         a pretty fulfilling experience for us. We hope to add you here!
@@ -157,7 +159,7 @@ class Main extends Component {
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                         <input className="mdl-textfield__input input" type="text" id="first_name" name="firstname"></input>
                                         <br/>
-                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="first_name">FIRST NAME</label>
+                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="first_name">FIRST NAME <sup style={{ color: '' }}>*</sup></label>
                                     </div>
                                 </div>
 
@@ -165,7 +167,7 @@ class Main extends Component {
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                         <input className="mdl-textfield__input input" type="text" id="last_name" name="lastname"></input>
                                         <br/>
-                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="last_name">LAST NAME</label>
+                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="last_name">LAST NAME <sup style={{ color: '' }}>*</sup></label>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +177,7 @@ class Main extends Component {
                                     <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                         <input className="mdl-textfield__input input" type="text" id="email_address" name="emailaddress"></input>
                                         <br/>
-                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="">EMAIL ADDRESS</label>
+                                        <label style={{fontFamily: 'Lato-Regular'}} htmlFor="">EMAIL ADDRESS <sup style={{ color: '' }}>*</sup></label>
                                     </div>
                                 </div>
                                 <div className="mdl-cell mdl-cell--6-col">
@@ -192,7 +194,7 @@ class Main extends Component {
                                         <div className="mdl-textfield mdl-js-textfield message">
                                             <textarea className="mdl-textfield__input" type="text" rows= "3" id="message" name="message"></textarea>
                                             <br/>
-                                            <label style={{fontFamily: 'Lato-Regular'}}>MESSAGE</label>
+                                            <label style={{fontFamily: 'Lato-Regular'}}>MESSAGE <sup style={{ color: '' }}>*</sup></label>
                                         </div>
                                 </div>
                             </div>
@@ -235,7 +237,7 @@ class Main extends Component {
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
                         <p className="">(02) 414 4014</p>
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored start">
                             START YOUR PROJECT
                         </button>
                         <p className="footercopyright"> COPYRIGHT © 2017 CLOUDWALK DIGITAL ALL RIGHTS RESERVED</p>
@@ -247,7 +249,7 @@ class Main extends Component {
                             <img className="fbicon"  src="./img/sm/fb.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col  mdl-cell--3-col-phone tandc">
-                                <label style={{fontFamily: 'Lato-Regular'}}>TERMS AND CONDITIONS</label>
+                                <label style={{fontFamily: 'Lato-Regular', color: '#fff' }}>TERMS AND CONDITIONS</label>
                             </div>
                         </div>
 
@@ -256,7 +258,7 @@ class Main extends Component {
                                 <img className="twittericon"  src="./img/sm/twitter.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone blog" >
-                                <label style={{fontFamily: 'Lato-Regular'}}>BLOG</label>
+                                <label style={{fontFamily: 'Lato-Regular', color: '#fff'}}>BLOG</label>
                             </div>
                         </div>
 
@@ -265,7 +267,7 @@ class Main extends Component {
                                 <img className="youtubeicon"  src="./img/sm/youtube.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone footercontact">
-                                <label style={{fontFamily: 'Lato-Regular'}}>CONTACT</label>
+                                <label style={{fontFamily: 'Lato-Regular', color: '#fff'}}>CONTACT</label>
                              </div>
                         </div>
                     </div>

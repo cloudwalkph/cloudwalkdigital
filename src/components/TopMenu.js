@@ -18,7 +18,7 @@ class TopMenu extends Component {
                             <a className="mdl-navigation__link submenu" href="#about">ABOUT</a>
                             <a className="mdl-navigation__link submenu" href="#product">PRODUCTS</a>
                             <a className="mdl-navigation__link submenu" href="">PARTNERS</a>
-                            <a className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored contactmenu" href="#contacts">CONTACT US</a>
+                            <a className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored contactmenu" style={{ letterSpacing : '0px' }} href="#contacts">CONTACT US</a>
                         </nav>
                     </div>
                 </header>
