@@ -185,4 +185,8 @@
         left: 0;
         position: fixed;
     }
+
+    .worklabel {
+        color: #fff;
+    }
 }
