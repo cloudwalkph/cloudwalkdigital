@@ -347,6 +347,7 @@
     .productbtn{
         margin-left: 20px;
         background: #63d6ef !important;
+        float: left;
     }
 
     .shape666{
@@ -686,6 +687,10 @@
 
     form{
         padding: 21px;
+    }
+
+    .hide-temp {
+        /*display: none;*/
     }
 
 }

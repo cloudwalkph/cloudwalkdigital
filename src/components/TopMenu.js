@@ -22,7 +22,7 @@ class TopMenu extends Component {
                         </nav>
                     </div>
                 </header>
-                <div className="mdl-layout__drawer mdl-cell--hide-desktop">
+                <div className="mdl-layout__drawer mdl-cell--hide-desktop navtool">
                     <span className="mdl-layout-title">
                         <img style={{height: '50px'}} src="./img/logo/cwd-logo.png"/>
                     </span>

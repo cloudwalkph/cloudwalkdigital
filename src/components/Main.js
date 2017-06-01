@@ -104,10 +104,11 @@ class Main extends Component {
                         <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
                         <img className="shape666 mdl-fw" src="./img/shapes/rectangle-6.png"/>
                         <p className="photoliveinfo"><font style={{ color: '#63d6ef'}}>Photolive</font> is a social media tool and the first digital photo<br className="mdl-layout--large-screen-only"/> booth in the country that allow's brands to gain valuable<br className="mdl-layout--large-screen-only"/>presence in top social networking sites like Facebook,<br className="mdl-layout--large-screen-only"/> Instagram, Twitter and Email in real time. </p>
-
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
-                            VISIT SITE
-                        </button>
+                        <div className="row text-center">
+                            <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
+                                VISIT SITE
+                            </button>
+                        </div>
                     </div>
                 </div>
 
