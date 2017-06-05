@@ -102,7 +102,7 @@
         z-index: 0;
         margin-left: 94%;
         /*margin-top: 42%;*/
-        margin-top: 41%;
+        margin-top: 613px;
         height: 8%;
     }
 
@@ -296,33 +296,6 @@
         text-align: left;
         width: 70%;
     }
-
-    /*.wd{*/
-        /*color: #f5822c;*/
-        /*margin-left: 185px;*/
-        /*text-align: left;*/
-        /*margin-left: auto;*/
-        /*margin-right: auto;*/
-    /*}*/
-
-    /*.wdfeatures2{*/
-        /*margin-top: 20px;*/
-        /*margin-left: 130px;*/
-
-        /*margin: 20px auto;*/
-        /*color: #7a7a7a;*/
-    /*}*/
-
-    /*.dg{*/
-        /*color: #f5822c;*/
-        /*margin-left: 189px;*/
-    /*}*/
-    /*.dgfeatures3{*/
-        /*margin-top: 20px;*/
-        /*margin-left: 120px;*/
-        /*color: #7a7a7a;*/
-        /*margin: 20px auto;*/
-    /*}*/
 
     /*END FEATURES DESIGN*/
 
@@ -698,4 +671,14 @@
         /*display: none;*/
     }
 
+    hr.rectangle5 {
+        float: right;
+        display: block;
+        height: 30px;
+        border: 0;
+        border-top: 5px solid orange;
+        margin: 11em 0;
+        padding: 0;
+        width: 484px;
+    }
 }

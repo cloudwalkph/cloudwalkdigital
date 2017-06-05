@@ -80,7 +80,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col">
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
 
-                        <hr/>
+                        <hr className="rectangle5"/>
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col ">
@@ -247,7 +247,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col footerlabel">
                         <label className="worklabel" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>WORK WITH US TODAY!</label>
                         <p className=""> whatsup@cloudwalkdigital.com</p>
-                        <p className="">(02) 414 4014</p>
+                        <p className="">(02) 962 41 92</p>
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored start">
                             START YOUR PROJECT
                         </button>
@@ -257,7 +257,7 @@ class Main extends Component {
                      <div  className="mdl-cell mdl-cell--6-col socialmedia" >
                         <div  className="mdl-grid" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                            <img className="fbicon"  src="./img/sm/fb.png"/>
+                                <a href="https://www.facebook.com/CloudwalkDigital"><img className="fbicon"  src="./img/sm/fb.png"/></a>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col  mdl-cell--3-col-phone tandc">
                                 <label style={{fontFamily: 'Lato-Regular', color: '#fff' }}>TERMS AND CONDITIONS</label>
@@ -266,7 +266,7 @@ class Main extends Component {
 
                         <div  className="mdl-grid twitter" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                                <img className="twittericon"  src="./img/sm/twitter.png"/>
+                                <a href="https://twitter.com/cwdph"><img className="twittericon"  src="./img/sm/twitter.png"/></a>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone blog" >
                                 <label style={{fontFamily: 'Lato-Regular', color: '#fff'}}>BLOG</label>
@@ -275,7 +275,7 @@ class Main extends Component {
 
                         <div  className="mdl-grid youtube" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                                <img className="youtubeicon"  src="./img/sm/youtube.png"/>
+                                <a href="https://www.youtube.com/channel/UCtNG3LyQc_ShGwSWn-8DDhQ"><img className="youtubeicon"  src="./img/sm/youtube.png"/></a>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone footercontact">
                                 <label style={{fontFamily: 'Lato-Regular', color: '#fff'}}>CONTACT</label>
