@@ -93,18 +93,18 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--4-col text-center">
                         <img className="features1 mdl-fw" src="./img/features/feature-1.png"/> <br/>
                         <label className="oms" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Online Management System</label>
-                        <p className="omsfeatures1">Learning is cool, but knowing is better, and<br/> I know the key to success. Find peace, life is<br/> like a water fall, yuo've gotta flow. celebrate<br/> success right, The only way, apple.</p>
+                        <p className="omsfeatures1">Learning is cool, but knowing is better, and I know the key to success. Find peace, life is like a water fall, yuo've gotta flow. celebrate success right, The only way, apple.</p>
                     </div>
                     <div className="mdl-cell mdl-cell--4-col  text-center">
                         <img className="features2 mdl-fw" src="./img/features/feature-2.png"/> <br/>
                         <label className="wd" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Web Development</label>
-                        <p className="wdfeatures2">I'm up to something. The first of the month is<br/> comming, we have to get money, we have no<br/> choice. It cost money to eat and they don't<br/> want you to eat. You smart, you loyal.</p>
+                        <p className="wdfeatures2">I'm up to something. The first of the month is comming, we have to get money, we have no choice. It cost money to eat and they don't want you to eat. You smart, you loyal.</p>
 
                     </div>
                     <div className="mdl-cell mdl-cell--4-col text-center">
                         <img className="features3 mdl-fw" src="./img/features/feature-3.png"/> <br/>
                         <label className="dg" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Digital Marketing</label>
-                        <p className="dgfeatures3">It's Important to use cocoa butter. It's the key<br/> to more success, why not live smooth? Why<br/> live rough? The other day the grass was brown.<br/> now it's green because I ain't give up.</p>
+                        <p className="dgfeatures3">It's Important to use cocoa butter. It's the key to more success, why not live smooth? Why live rough? The other day the grass was brown. now it's green because I ain't give up.</p>
                     </div>
                 </div>
 
