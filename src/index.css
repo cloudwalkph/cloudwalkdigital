@@ -22,7 +22,11 @@ body {
 }
 
 #menu{
-    margin-left: 54%;
+    /*margin-left: 54%;*/
+}
+
+.mdl-layout__content {
+    overflow: hidden;
 }
 
 .rotate {
@@ -88,5 +92,15 @@ label {
 
 .start {
     background: #62d6ef !important;
+}
+
+.submenu:hover {
+    background-color : orange;
+    color : #ffffff;
+}
+
+.active {
+    background-color : orange;
+    color : #ffffff;
 }
 

@@ -10,7 +10,6 @@ class Main extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-
     handleSubmit(event) {
         event.preventDefault();
         const formData = new FormData( event.target );
@@ -51,7 +50,7 @@ class Main extends Component {
                 <img className="hide-temp shapes rotate polygon3" src="./img/shapes/polygon-3.png"/>
                 <img className="hide-temp shapes rectangle05" src="./img/shapes/rectangle-5.png"/>
                 <img className="hide-temp shapes rotate polygon2" src="./img/shapes/polygon-2.png"/>
-                <img className="hide-temp shapes rectangle6" src="./img/shapes/rectangle-6.png"/>
+                {/*<img className="hide-temp shapes rectangle6" src="./img/shapes/rectangle-6.png"/>*/}
                 <img className="hide-temp shapes rotate rectangle4" src="./img/shapes/rectangle-4.png"/>
                 <img className="hide-temp shapes rotate polygon22" src="./img/shapes/polygon-2.png"/>
                 <img className="hide-temp shapes rotate polygon33" src="./img/shapes/polygon-3.png"/>
@@ -61,7 +60,7 @@ class Main extends Component {
                 <img className="hide-temp shapes rotate rectangle2" src="./img/shapes/rectangle-2.png"/>
 
 
-                <div className="mdl-grid webcover">
+                <div className="mdl-grid webcover" id="home">
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone web">
                         <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
                         <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
@@ -79,8 +78,9 @@ class Main extends Component {
 
                 <div className="mdl-grid aboutpage" id="about">
                     <div className="mdl-cell mdl-cell--6-col">
-                        <img className="shape5" src="./img/shapes/rectanglewhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
+
+                        <hr/>
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col ">
