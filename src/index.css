@@ -107,3 +107,12 @@ label {
 .footercopyright {
     font-size: 12px;
 }
+
+.mdl-textfield {
+    padding: 0;
+}
+
+.btn-custom-hover:hover {
+    background: #f5822c !important;
+    cursor: hand;
+}

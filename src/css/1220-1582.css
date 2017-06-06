@@ -132,48 +132,45 @@
     .polygon22{
         position: absolute;
         z-index: 0;
-        margin-left: 56%;
-        margin-top: 2792px;
+        left: 56%;
         height: 60px;
     }
 
     .polygon33{
         position: absolute;
         z-index: 0;
-        margin-left: 93%;
-        margin-top: 2864px;
         height: 45px;
+        right: 3px;
     }
 
     .ellipse22{
         position: absolute;
         z-index: 0;
-        margin-top: 2741px;
-        margin-left: 288px;
+        left: 288px;
         height: 40px;
     }
 
     .polygon44{
         position: absolute;
         z-index: 0;
-        margin-top: 3030px;
-        margin-left: 287px;
+        margin-top: 201px;
+        left: 287px;
         height: 110px;
     }
 
     .rectangle1{
         position: absolute;
         z-index: 0;
-        margin-top: 2911px;
-        margin-left: 26px;
+        margin-top: 156px;
+        left: 26px;
         height: 51px;
     }
 
     .rectangle2{
         position: absolute;
         z-index: 0;
-        margin-top: 3005px;
-        margin-left: 1171px;
+        margin-top: 291px;
+        right: 25px;
         height: 100px;
     }
     /* End Shapes*/
@@ -301,15 +298,19 @@
 
     /*Start Products Design*/
     .photolivelogo{
-        height: 209px;
-        margin-left: 303px;
-        margin-top: -65px;
+        /*height: 209px;*/
+        /*margin-left: 303px;*/
+        /*margin-top: -65px;*/
+        float: right;
+        max-height: 300px;
+        margin-right: 90px;
     }
 
     .photoliveinfo{
         margin-top: 20px;
         margin-left: 23px;
         color: #7a7a7a;
+        max-width: 354px;
     }
 
     .products{
@@ -336,7 +337,7 @@
     }
 
     #product{
-        margin-top: 100px;
+        padding: 85px 0px;
     }
 
     /*end Products*/
@@ -427,7 +428,7 @@
         padding-top: 100px;
     }
     .consultation{
-        /*margin-top: 298px;*/
+        padding-top: 45px;
     }
     .consultation1{
         width: 450px;
@@ -542,15 +543,17 @@
 
     .cwdmap{
         background-color: #fff;
-        width: 30%;
+        width: 37%;
         z-index: 1;
         position: absolute;
-        padding: 30px;
-        margin-left: -16px;
+        margin-left: 0;
+        padding: 54px;
+        height: 218px;
     }
 
     .drop{
         color: #f5822c;
+        font-size: 30px;
     }
 
     .cwdadd{
@@ -605,12 +608,10 @@
 
     .fbicon{
         height: 38px;
-        margin-left: 80%;
     }
 
     .twittericon{
         height: 38px;
-        margin-left: 80%;
         margin-top: 20px;
     }
 
@@ -620,7 +621,6 @@
 
     .youtubeicon{
         height: 38px;
-        margin-left: 80%;
         margin-top: 20px;
     }
 
@@ -631,6 +631,7 @@
     .socialmedia{
         /*margin-top: -243px;*/
         padding: 50px 0 50px 0;
+        text-align: center;
     }
 
     .tandc{
@@ -680,5 +681,50 @@
         margin: 11em 0;
         padding: 0;
         width: 484px;
+    }
+
+    hr.shape666 {
+        border: 0;
+        border-top: 2px solid orange;
+        margin: 23px;
+        padding: 0;
+        width: 67px;
+    }
+
+    .product-logos{
+        max-width: 200px !important;
+        margin-left: 24px;
+        max-height: 118px;
+    }
+
+    .product-description {
+        padding: 6px 0;
+    }
+
+    .verify {
+        margin-top: 56px;
+        margin-bottom: 65px;
+    }
+
+    .bolooka {
+        margin-top: 50px;
+        margin-bottom: 44px;
+    }
+
+    .soovy {
+        margin-top: 30px;
+        margin-bottom: 27px;
+    }
+
+    .medix {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    hr.hr-drop{
+        border: 0;
+        border-top: 2px solid orange;
+        padding: 0;
+        width: 67px;
     }
 }

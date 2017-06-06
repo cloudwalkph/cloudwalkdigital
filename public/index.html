@@ -46,7 +46,7 @@
       }
     </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
+    <link rel="stylesheet" href="./carousel/css/jquery.bxslider.min.css">
   </head>
   <body>
     <div id="root"></div>
@@ -85,6 +85,28 @@
 
   <script async defer
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnWvdkcf17U0Mv5U7bT5pupIUlRK42A5E&callback=initMap">
+  </script>
+
+  <script src="./carousel/js/jquery-3.1.1.min.js"></script>
+  <script src="./carousel/js/jquery.bxslider.min.js"></script>
+  <script !src="">
+      $(document).ready(function(){
+          $('.bxslider').bxSlider({
+              mode: 'horizontal',
+              infiniteLoop: true,
+              auto: true,
+              autoStart: true,
+              autoDirection: 'next',
+              autoHover: true,
+              pause: 10000,
+              autoControls: false,
+              pager: true,
+              pagerType: 'full',
+              controls: true,
+              captions: true,
+              speed: 3000,
+          });
+      });
   </script>
 </html>
 
