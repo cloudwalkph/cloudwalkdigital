@@ -81,18 +81,25 @@
         margin-top: 9%;
     }
 
+    .rectangle10{
+        position: absolute;
+        top: 12%;
+        left: 14%;
+        max-height: 80px;
+        height: 12vh;
+    }
+
     .ellipse2{
         position: absolute;
         z-index: 0;
         margin-left: 75%;
-        margin-top: 43%;
+        margin-top: 53%;
     }
 
     .polygon3{
         position: absolute;
         z-index: 0;
-        /*margin-top: 57%;*/
-        margin-top: 52%;
+        margin-top: 67%;
         margin-left: 85%;
 
     }
@@ -109,7 +116,7 @@
     .rectangle4{
         position: absolute;
         z-index: 0;
-        margin-top: 987px;
+        margin-top: 1090px;
         margin-left: 400px;
     }
 
@@ -125,8 +132,8 @@
         position: absolute;
         z-index: 0;
         margin-left: 46%;
-        margin-top: 819px;
-        height: 55px;
+        margin-top: 69%;
+        height: 88px;
     }
 
     .polygon22{
@@ -216,6 +223,12 @@
         background: #63d6ef !important;
     }
 
+    .get-estimate{
+        /*margin-left: 114px;*/
+        margin-top: 10px;
+        background: #55aadf !important;
+    }
+
     .laptop{
         margin-top: 192px;
         height: 349px;
@@ -242,7 +255,7 @@
 
     .logo{
         height: 165px;
-        margin-top: 145px;
+        margin-top: 88px;
         margin-left: 130px;
     }
 
@@ -261,21 +274,21 @@
     /* Start Features Design */
     .features1{
         height: 188px;
-        margin-top: 244px;
+        margin-top: 101px;
         /*margin-left: 100px;*/
         margin-bottom: 58px;
     }
 
     .features2{
         height: 188px;
-        margin-top: 244px;
+        margin-top: 101px;
         /*margin-left: 130px;*/
         margin-bottom: 58px;
     }
 
     .features3{
         height: 188px;
-        margin-top: 244px;
+        margin-top: 101px;
         /*margin-left: 130px;*/
         margin-bottom: 58px;
     }
@@ -302,7 +315,7 @@
         /*margin-left: 303px;*/
         /*margin-top: -65px;*/
         float: right;
-        max-height: 300px;
+        max-height: 379px;
         margin-right: 90px;
     }
 
@@ -337,7 +350,7 @@
     }
 
     #product{
-        padding: 85px 0px;
+        padding: 100px 0px;
     }
 
     /*end Products*/
@@ -357,7 +370,7 @@
     }
 
     .titleqoute{
-        font-size: 30px;
+        font-size: 4vh;
         color: #7a7a7a;
     }
 
@@ -408,9 +421,10 @@
     }
 
     .qoute{
-        font-size: 80px;
         color: #f5822c;
         font-size: 100px;
+        position: relative;
+        top: 45px;
     }
 
     .clientqoute{
@@ -678,9 +692,9 @@
         height: 30px;
         border: 0;
         border-top: 5px solid orange;
-        margin: 11em 0;
+        margin: 7em 0;
         padding: 0;
-        width: 484px;
+        width: 79%;
     }
 
     hr.shape666 {
@@ -694,7 +708,7 @@
     .product-logos{
         max-width: 200px !important;
         margin-left: 24px;
-        max-height: 118px;
+        max-height: 160px;
     }
 
     .product-description {
@@ -726,5 +740,12 @@
         border-top: 2px solid orange;
         padding: 0;
         width: 67px;
+    }
+
+    .ellipse3 {
+        position: absolute;
+        top: 8.8%;
+        left: 45%;
+        height: 8vh;
     }
 }

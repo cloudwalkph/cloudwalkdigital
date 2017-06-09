@@ -52,7 +52,8 @@ class Main extends Component {
                 <img className="hide-temp shapes rotate polygon2" src="./img/shapes/polygon-2.png"/>
                 {/*<img className="hide-temp shapes rectangle6" src="./img/shapes/rectangle-6.png"/>*/}
                 <img className="hide-temp shapes rotate rectangle4" src="./img/shapes/rectangle-4.png"/>
-
+                <img className="hide-temp shapes rotate ellipse3" src="./img/shapes/ellipse3.png"/>
+                <img className="hide-temp shapes rotate rectangle10" src="./img/shapes/rectangle-2.png"/>
 
                 <div className="mdl-grid webcover" id="home">
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone web">
@@ -60,7 +61,7 @@ class Main extends Component {
                         <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
                         <img className="shape6 mdl-fw" src="./img/shapes/rectangle-6.png"/>
                         <p className="newwebcaption" style={{fontFamily: 'Lato-Regular'}}>Let's create something  that will convert  visitors to instant customers.<br/>With clean and clear UI/UX and branded aesthestics, create valuable<br/> qualified leads.</p>
-                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton btn-custom-hover">
+                        <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored get-estimate btn-custom-hover">
                             GET ESTIMATE
                         </button>
                      </div>
@@ -231,8 +232,7 @@ class Main extends Component {
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col feedback1">
-                        <label className="qoute" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>“</label>
-                        <label className="titleqoute" style={{fontFamily: 'Lato-Bold'}}>The best Digital Agency since sliced bread!</label>
+                        <label className="titleqoute" style={{fontFamily: 'Lato-Bold'}}> <sup className="qoute" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>“</sup>The best Digital Agency since sliced bread!</label>
                         <p className="clientqoute" style={{fontFamily: 'Lato-Regular'}}>How’s business? Boomin. I’m giving you cloth talk, cloth. Special cloth alert,<br/>
                         cut from a special cloth. Surround yourself with angels. </p>
                         <div  className="mdl-grid" >

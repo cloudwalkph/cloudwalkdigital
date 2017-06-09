@@ -22,7 +22,7 @@ class TopMenu extends Component {
     }
 
     render() {
-        const activeStyle = { color: '#ffffff', background:'orange', marginRight: '10px' };
+        const activeStyle = { color: '#ffffff', background:'orange' };
 
         return (
             <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
@@ -42,7 +42,7 @@ class TopMenu extends Component {
                                     {menuItem.menuTitle}
                                 </a>
                             )}
-                            <a className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored contactmenu" style={{ letterSpacing : '0px' }} href="#contacts">CONTACT US</a>
+                            <a className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored contactmenu" style={{ letterSpacing : '0px', marginLeft : '10px' }} href="#contacts">CONTACT US</a>
                         </nav>
                     </div>
                 </header>
